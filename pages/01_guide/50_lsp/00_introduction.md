@@ -16,7 +16,10 @@ In these sorts of setups, services are run to provide some supporting functional
 The types of services offered include:
 - Graphing and route calculation
 - Liquidity provisioning
-- Channel backups
+- Channel backups and recovery
+- Submarine swaps
+- Watchtowers
+- Payment forwarding
 
 The unique value offered by these services is things like the ability run a Lightning node on lower capacity devices where heavy operations are offloaded, or the ability to access required liquidity for sending/receiving on the network without having to manually provision it by themselves.
 
@@ -36,8 +39,20 @@ There are a number of options that can be run as services to help with these sor
 - Lightning Pool offers channel leasing
 - Lightning Loop and other submarine swap providers allow you to interchange between on-chain and off-chain liquidity
 
-### Channel Backups
+### Channel Backups and recovery
 
 LSPs may act as a trusted peer that stores an encrypted static channel backup (SCB) for its users.
 
 ACINQ (the LSP) and their non-custodial wallet Phoenix use this method of backup. In the event a user has to restore their wallet, all they need is their regular recovery phrase and their channels with ACINQ will be recovered from the encrypted SCB that ACINQ stores trustlessly with their node. [Link](https://medium.com/@ACINQ/phoenix-wallet-part-3-backup-f63a9470d4e7)
+
+### Submarine swaps
+
+(WIP)
+
+### Watch towers
+
+(WIP)
+
+### Payment forwarding (warm node)
+
+(WIP)
