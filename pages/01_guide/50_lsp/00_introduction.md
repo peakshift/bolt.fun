@@ -20,6 +20,7 @@ The types of services offered include:
 - Submarine swaps
 - Watchtowers
 - Payment forwarding
+- Receive via Lightning address
 
 The unique value offered by these services is things like the ability run a Lightning node on lower capacity devices where heavy operations are offloaded, or the ability to access required liquidity for sending/receiving on the network without having to manually provision it by themselves.
 
@@ -56,3 +57,5 @@ ACINQ (the LSP) and their non-custodial wallet Phoenix use this method of backup
 ### Payment forwarding (warm node)
 
 (WIP)
+
+### Receive via Lightning address
