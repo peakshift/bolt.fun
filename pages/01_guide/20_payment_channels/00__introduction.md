@@ -28,5 +28,7 @@ A channel factory is a non-custodial, multi participatory system that contains c
 ---
 
 ### Hosted channels (WIP)
-Hosted channels (HC) is an extention to LN protocol which allows two LN nodes to establish a new type of channel between them which is intentionally not backed on chain.
+Hosted channels (HC) is an extension to LN protocol which allows two LN nodes to establish a new type of channel between them which is intentionally not backed on chain[^1].
+
+[1]: https://github.com/btcontract/hosted-channels-rfc/blob/master/README.md (hosted-channels-rfc)
 
