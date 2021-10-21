@@ -20,8 +20,15 @@ This is known as a payment channel, Lightning is essentially a network of paymen
 ### [Submarine Swap]({{ "/guide/payment-channels/submarine-swaps" }})
 Method to send funds from an on-chain address directly into an open payment channel and vice versa.
 
+---
 
 ### Channel factories (WIP)
 A channel factory is a non-custodial, multi participatory system that contains channels. Channel factories allow users to open unlimited channels within their group.
 
 ---
+
+### Hosted channels (WIP)
+Hosted channels (HC) is an extension to LN protocol which allows two LN nodes to establish a new type of channel between them which is intentionally not backed on chain[^1].
+
+[1]: https://github.com/btcontract/hosted-channels-rfc/blob/master/README.md (hosted-channels-rfc)
+
