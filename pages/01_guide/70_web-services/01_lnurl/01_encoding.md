@@ -10,6 +10,17 @@ permalink: /guide/web-services/lnurl/encoding
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/web-services/lnurl/encoding.png"
+   retina = "/assets/images/web-services/lnurl/encoding@2x.png"
+   mobile = "/assets/images/web-services/lnurl/encoding-mobile.png"
+   mobileRetina = "/assets/images/web-services/lnurl/encoding-mobile@2x.png"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # URLs as Lightning invoices (bech32)
 
 LNURL endpoints are all encoded with [bech32](https://en.bitcoin.it/wiki/Bech32) which is the same as bitcoin addresses and [standard lightning invoices]({{ "/guide/invoices" | relative_url }}). Encoding endpoints like this allows for easy integration into existing LN services/apps since most of these would already have functionality built in to receive/send and encode/decode bech32 values.

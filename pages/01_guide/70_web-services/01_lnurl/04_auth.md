@@ -10,6 +10,17 @@ permalink: /guide/web-services/lnurl/auth
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/web-services/lnurl/auth.png"
+   retina = "/assets/images/web-services/lnurl/auth@2x.png"
+   mobile = "/assets/images/web-services/lnurl/auth-mobile.png"
+   mobileRetina = "/assets/images/web-services/lnurl/auth-mobile@2x.png"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Authentication to a service using the client's mnemonic
 ###### LNURL-PAY
 
