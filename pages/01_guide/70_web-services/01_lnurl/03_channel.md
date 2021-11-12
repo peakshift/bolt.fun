@@ -10,6 +10,17 @@ permalink: /guide/web-services/lnurl/channel
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/web-services/lnurl/channel.png"
+   retina = "/assets/images/web-services/lnurl/channel@2x.png"
+   mobile = "/assets/images/web-services/lnurl/channel-mobile.png"
+   mobileRetina = "/assets/images/web-services/lnurl/channel-mobile@2x.png"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Request the creation of incoming channels from a service
 ###### LNURL-CHANNEL
 

@@ -9,6 +9,17 @@ permalink: /guide/web-services/lnurl
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/web-services/lnurl/introduction.png"
+   retina = "/assets/images/web-services/lnurl/introduction@2x.png"
+   mobile = "/assets/images/web-services/lnurl/introduction-mobile.png"
+   mobileRetina = "/assets/images/web-services/lnurl/introduction-mobile@2x.png"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # API to automate node operations
 
 LNURL allows web services to use Lightning Network functionality in their API endpoints that clients who have implemented one or more of the various flows can interact with autonomously. The client can be a wallet application or even another web service.

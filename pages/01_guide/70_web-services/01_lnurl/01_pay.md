@@ -10,6 +10,17 @@ permalink: /guide/web-services/lnurl/pay
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/web-services/lnurl/pay.png"
+   retina = "/assets/images/web-services/lnurl/pay@2x.png"
+   mobile = "/assets/images/web-services/lnurl/pay-mobile.png"
+   mobileRetina = "/assets/images/web-services/lnurl/pay-mobile@2x.png"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Generate invoices given some parameters
 ###### LNURL-PAY
 
