@@ -9,6 +9,17 @@ permalink: /guide/invoices/hodl-invoice
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/invoices/hodl-invoice.jpg"
+   retina = "/assets/images/invoices/hodl-invoice@2x.jpg"
+   mobile = "/assets/images/invoices/hodl-invoice-mobile.jpg"
+   mobileRetina = "/assets/images/invoices/hodl-invoice-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # The HODL Invoice
 
 At a high level, a `hodl invlightning_offeroice` is an invoice that is held by the recipient but not settled right away. A `hodl invoice` can be resolved in two ways:

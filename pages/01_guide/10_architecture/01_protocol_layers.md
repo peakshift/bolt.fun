@@ -9,6 +9,17 @@ permalink: /guide/architecture/layers
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/architecture/protocol-layers.jpg"
+   retina = "/assets/images/architecture/protocol-layers@2x.jpg"
+   mobile = "/assets/images/architecture/protocol-layers-mobile.jpg"
+   mobileRetina = "/assets/images/architecture/protocol-layers-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Protocol Layers
 
 The Lightning protocol is made up of a number of interlinking layers, much like say the TCP/IP or OSI Networking protocol models. Components of a Lightning node can span one or many of these layers and they vary in how intensely they draw on the physical resources they require. These components can also be separated into discrete processes or bundles of processes that can then communicate with each other over appropriate interfaces.

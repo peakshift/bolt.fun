@@ -9,6 +9,17 @@ permalink: /guide/invoices/standard-invoice
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/invoices/standard-invoice.jpg"
+   retina = "/assets/images/invoices/standard-invoice@2x.jpg"
+   mobile = "/assets/images/invoices/standard-invoice-mobile.jpg"
+   mobileRetina = "/assets/images/invoices/standard-invoice-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Lightning Invoices
 
 At a high level the lightning network works by passing payments along a route of channels until it gets from sender to recipient. The payments are routed in an atomic way, meaning that, the payment either gets all the way to the recipient or it fails completely. This means that payments can't get stuck or stolen at any point in the routing from sender to recipient.

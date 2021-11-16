@@ -9,6 +9,17 @@ permalink: /guide/invoices
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/invoices/introduction.jpg"
+   retina = "/assets/images/invoices/introduction@2x.jpg"
+   mobile = "/assets/images/invoices/introduction-mobile.jpg"
+   mobileRetina = "/assets/images/invoices/introduction-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Invoices & Payments
 
 To execute a payment in bitcoin a receiver needs to provide the sender with the destination which is usually an address. On the lightning network the destination is encoded in what is called an invoice.
