@@ -9,6 +9,17 @@ permalink: /guide/payment-channels/submarine-swaps
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/payment-channels/submarine-swaps.jpg"
+   retina = "/assets/images/payment-channels/submarine-swaps@2x.jpg"
+   mobile = "/assets/images/payment-channels/submarine-swaps-mobile.jpg"
+   mobileRetina = "/assets/images/payment-channels/submarine-swaps-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Submarine Swap
 
 Funds that are locked into a Lightning channel are usually limited to being transferrable solely across the Lightning Network. They can be sent back and forth on a given channel, but cannot come back on-chain unless the channel is closed.

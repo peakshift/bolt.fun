@@ -9,6 +9,17 @@ permalink: /guide/architecture/layers-to-ldk
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/architecture/ldk-protocol-mapping.jpg"
+   retina = "/assets/images/architecture/ldk-protocol-mapping@2x.jpg"
+   mobile = "/assets/images/architecture/ldk-protocol-mapping-mobile.jpg"
+   mobileRetina = "/assets/images/architecture/ldk-protocol-mapping-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Mapping the Lightning Layers Model to LDK Architecture
 
 **_(Incomplete)_**

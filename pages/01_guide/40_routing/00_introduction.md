@@ -9,6 +9,15 @@ permalink: /guide/routing
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/routing/introduction.jpg"
+   retina = "/assets/images/routing/introduction@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Routing
 
 The Lightning Network is a network of nodes which are able to talk to one another and declare their payment channels. To make a Lightning payment you don’t actually need a direct channel to the party you’re sending/receiving from. With an invoice, the sender finds a route to the receiver and the payment hops from channel to channel until it reaches the destination.

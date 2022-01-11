@@ -9,6 +9,17 @@ permalink: /guide/lsp
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/lsp/introduction.jpg"
+   retina = "/assets/images/lsp/introduction@2x.jpg"
+   mobile = "/assets/images/lsp/introduction-mobile.jpg"
+   mobileRetina = "/assets/images/lsp/introduction-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Lightning Service Providers (LSPs)
 
 In these sorts of setups, services are run to provide some supporting functionality needed to operate on the Lightning network. This category can also probably be considered as Lightning Service Providers (LSPs) and their services are usually targeted at self-sovereign node operators.

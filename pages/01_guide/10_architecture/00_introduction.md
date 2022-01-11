@@ -9,6 +9,17 @@ permalink: /guide/architecture
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/architecture/introduction.jpg"
+   retina = "/assets/images/architecture/introduction@2x.jpg"
+   mobile = "/assets/images/architecture/introduction-mobile.jpg"
+   mobileRetina = "/assets/images/architecture/introduction-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Lightning Network Client Architectures
 
 Over the years as the Lighting Network developed, there have been a number of different attempts to port it's functionality to mobile devices.

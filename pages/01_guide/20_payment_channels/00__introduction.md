@@ -9,6 +9,17 @@ permalink: /guide/payment-channels
 main_classes: -no-top-padding
 ---
 
+{% include picture.html 
+   image = "/assets/images/payment-channels/introduction.jpg"
+   retina = "/assets/images/payment-channels/introduction@2x.jpg"
+   mobile = "/assets/images/payment-channels/introduction-mobile.jpg"
+   mobileRetina = "/assets/images/payment-channels/introduction-mobile@2x.jpg"
+   alt-text = ""
+   width = 1600
+   height = 900
+   layout = "full-width"
+%}
+
 # Payment Channels
 
 If two parties want to make payments between themselves often, they can lock up some funds together in an on-chain transaction. Then they are able to bypass recording their subsequent payments with one another on-chain, by instead keeping track of each of their bitcoin balances in Lightning.
