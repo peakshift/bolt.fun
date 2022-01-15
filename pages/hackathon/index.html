@@ -1,0 +1,533 @@
+---
+permalink: /hackathon/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shock the web | Hackathon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="{{ "/assets/css/hackathon.css" | relative_url }}"
+    rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Header -->
+    <section id="header">
+      {% include picture.html image =
+      "/assets/images/hackathons/shock-the-web.jpg" retina =
+      "/assets/images/hackathons/shock-the-web@2x.jpg" mobile =
+      "/assets/images/hackathons/shock-the-web-mobile.jpg" mobileRetina =
+      "/assets/images/hackathons/shock-the-web-mobile@2x.jpg" alt-text = "Shock
+      the web" width = 1600 height = 800 %}
+    </section>
+
+    <div class="page-container">
+      <!-- About -->
+      <section id="about" class="mt-100">
+        <p class="text-body2 text-gray-600">
+          The lightning web virtual hackathon is a 7 day event for designers and
+          frontend developers to collaborate and build new lightning web
+          applications using WebLN, LNURL, and Lightning Address. The week will
+          be filled with guest speakers, workshops, design sprints, and more.
+          Enter your own team of up to 5 members, or be paired up with others
+          who compliment your skill set. At the end of the 7 days, pitch your
+          project with a short 10 video to be examined by our panel of judges.
+          Prizes will be given to 1st, 2nd, and 3rd places! If you're ready to
+          build the next layer of the web, come and join us at our Shock the Web
+          hackaton on Nov 10-17th, 2021.
+        </p>
+
+        <div id="register-counter">
+          <p class="text-black text-body2">Hackathon starts in</p>
+          <div class="counters-list">
+            <div class="bg-white rounded-10 text-body1 p-10">17d</div>
+            <div class="bg-white rounded-10 text-body1 p-10">12h</div>
+            <div class="bg-white rounded-10 text-body1 p-10">36s</div>
+          </div>
+          <button
+            class="py-20 px-42 bg-blue-900 text-white rounded-10 font-bold"
+          >
+            Register Now
+          </button>
+        </div>
+      </section>
+
+      <!-- Prizes -->
+
+      <section id="prizes" class="border borders-between rounded-12 mt-100">
+        <div class="card mx-auto">
+          <img
+            src="/assets/images/hackathons/medal-gold.png"
+            alt="gold medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">1st</p>
+            <p class="text-body1 text-gray-900 font-bold">600$</p>
+            <p class="text-body2">
+              <a class="text-orange mr-20" href="#">Site</a>
+              <a class="text-blue" href="#">View Pitch</a>
+            </p>
+          </div>
+        </div>
+        <div class="card mx-auto">
+          <img
+            src="/assets/images/hackathons/medal-gold.png"
+            alt="gold medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">2nd</p>
+            <p class="text-body1 text-gray-900 font-bold">300$</p>
+            <p class="text-body2">
+              <a class="text-orange mr-20" href="#">Site</a>
+              <a class="text-blue" href="#">View Pitch</a>
+            </p>
+          </div>
+        </div>
+        <div class="card mx-auto">
+          <img
+            src="/assets/images/hackathons/medal-gold.png"
+            alt="gold medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">3rd</p>
+            <p class="text-body1 text-gray-900 font-bold">150$</p>
+            <p class="text-body2">
+              <a class="text-orange mr-20" href="#">Site</a>
+              <a class="text-blue" href="#">View Pitch</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule / Calendar -->
+      <section id="calender" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Schedule / Calendar</h2>
+        <p class="text-body2 text-gray-600">
+          Follow all events live or on catch-up. You can link your iCal or
+          Google Calendar by embedding
+          <a class="text-orange" href="#">this link.</a>
+        </p>
+
+        <div class="border borders-between rounded-12 mt-64">
+          <div class="day collapse-container">
+            <div class="p-20 flex items-center">
+              <h3 class="text-h3 font-bold">Monday</h3>
+              <p class="text-body2 text-gray-600 ml-auto">3 events</p>
+              <button class="open-collapse-btn bg-gray-200 rounded-8 ml-20">
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="events collapse-content border-t borders-between">
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Bitcoin Design Payments Workshop
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Design x Developer Pitches
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">Event name</h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="day collapse-container">
+            <div class="p-20 flex items-center">
+              <h3 class="text-h3 font-bold">Tuesday</h3>
+              <p class="text-body2 text-gray-600 ml-auto">2 events</p>
+              <button class="open-collapse-btn bg-gray-200 rounded-8 ml-20">
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="events collapse-content border-t borders-between">
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Bitcoin Design Payments Workshop
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Design x Developer Pitches
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="day collapse-container">
+            <div class="p-20 flex items-center">
+              <h3 class="text-h3 font-bold">Monday</h3>
+              <p class="text-body2 text-gray-600 ml-auto">4 events</p>
+              <button class="open-collapse-btn bg-gray-200 rounded-8 ml-20">
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="events collapse-content border-t borders-between">
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Bitcoin Design Payments Workshop
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">
+                      Design x Developer Pitches
+                    </h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">Event name</h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+                <div class="p-20 flex items-center">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32">
+                    <h4 class="title text-h4 font-bold-600">Event name</h4>
+                    <p class="date text-body2 font-bold-400 text-gray-400">
+                      Date and time
+                    </p>
+                  </div>
+
+                  <a href="#" class="ml-auto mr-10 text-blue flex-shrink-0"
+                    >Watch replay</a
+                  >
+                  <img
+                    src="/assets/icons/youtube.svg"
+                    alt="clock"
+                    class="icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Judges -->
+
+      <section id="judges" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Judges & Speakers</h2>
+        <div class="flex judges-list mt-48">
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
+            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              Bitcoin Developer
+            </p>
+            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section id="faqs" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">FAQs</h2>
+
+        <div class="borders-between rounded-12 mt-52">
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">
+                How many members can I have on my team?
+              </h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="collapse-content pb-20">
+                <p class="text-body2 text-gray-600 font-bold-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
+                  at gravida enim sapien non, est aenean morbi aliquet.
+                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
+                  elementum donec varius imperdiet placerat arcu, in enim
+                  integer. Laoreet consequat nisl non faucibus id egestas
+                  pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">
+                What sort of projects will we be hacking?
+              </h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="collapse-content pb-20">
+                <p class="text-body2 text-gray-600 font-bold-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
+                  at gravida enim sapien non, est aenean morbi aliquet.
+                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
+                  elementum donec varius imperdiet placerat arcu, in enim
+                  integer. Laoreet consequat nisl non faucibus id egestas
+                  pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">What are the prizes?</h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="collapse-content pb-20">
+                <p class="text-body2 text-gray-600 font-bold-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
+                  at gravida enim sapien non, est aenean morbi aliquet.
+                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
+                  elementum donec varius imperdiet placerat arcu, in enim
+                  integer. Laoreet consequat nisl non faucibus id egestas
+                  pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">
+                How will projects be judged?
+              </h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="collapse-content pb-20">
+                <p class="text-body2 text-gray-600 font-bold-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
+                  at gravida enim sapien non, est aenean morbi aliquet.
+                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
+                  elementum donec varius imperdiet placerat arcu, in enim
+                  integer. Laoreet consequat nisl non faucibus id egestas
+                  pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="p-20 mt-100">
+        <hr class="bg-gray-300 mb-16" />
+        <p class="p text-body4 text-gray-300">© 2021 PEAK SHIFT LTD.</p>
+      </footer>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="/js/hackathon.js"></script>
+  </body>
+</html>

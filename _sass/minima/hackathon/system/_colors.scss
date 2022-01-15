@@ -1,0 +1,64 @@
+// Colorls
+
+$colors: (
+  "gray": (
+    25: #fcfcfd,
+    50: #f9fafb,
+    100: #f2f4f7,
+    200: #e4e7ec,
+    300: #d0d5dd,
+    400: #98a2b3,
+    500: #667085,
+    600: #475467,
+    700: #344054,
+    800: #1d2939,
+    900: #101828,
+  ),
+  "blue": (
+    400: #60a5fa,
+    500: #2f80ed,
+    700: #1d4ed8,
+    800: #1e40af,
+    900: #0c1a3f,
+  ),
+  "orange": (
+    400: #f8a65e,
+    500: #f2994a,
+    600: #ea580c,
+  ),
+);
+// Colors with shades
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    .bg-#{$color}-#{$shade} {
+      background: $value;
+    }
+    .text-#{$color}-#{$shade} {
+      color: $value;
+    }
+  }
+}
+
+// Default shades
+@each $color, $shades in $colors {
+  .bg-#{$color} {
+    background: map-get($shades, 500);
+  }
+  .text-#{$color} {
+    color: map-get($shades, 500);
+  }
+}
+
+$base-colors: (
+  "white": #fff,
+  "black": #202020,
+);
+
+@each $color, $shade in $base-colors {
+  .bg-#{$color} {
+    background: $shade;
+  }
+  .text-#{$color} {
+    color: $shade;
+  }
+}

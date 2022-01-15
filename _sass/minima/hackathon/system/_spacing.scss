@@ -1,0 +1,78 @@
+// Spacing
+$spacing: 4, 8, 10, 12, 14, 16, 20, 24, 30, 32, 36, 40, 42, 48, 52, 64, 72, 80,
+  100, 130;
+
+@each $n in $spacing {
+  .m-#{$n} {
+    margin: #{$n}px;
+  }
+
+  .my-#{$n} {
+    margin-top: #{$n}px;
+    margin-bottom: #{$n}px;
+  }
+
+  .mx-#{$n} {
+    margin-left: #{$n}px;
+    margin-right: #{$n}px;
+  }
+
+  .ml-#{$n} {
+    margin-left: #{$n}px;
+  }
+
+  .mt-#{$n} {
+    margin-top: #{$n}px;
+  }
+
+  .mb-#{$n} {
+    margin-bottom: #{$n}px;
+  }
+
+  .mr-#{$n} {
+    margin-right: #{$n}px;
+  }
+
+  .p-#{$n} {
+    padding: #{$n}px;
+  }
+
+  .py-#{$n} {
+    padding-top: #{$n}px;
+    padding-bottom: #{$n}px;
+  }
+
+  .px-#{$n} {
+    padding-left: #{$n}px;
+    padding-right: #{$n}px;
+  }
+
+  .pl-#{$n} {
+    padding-left: #{$n}px;
+  }
+
+  .pt-#{$n} {
+    padding-top: #{$n}px;
+  }
+
+  .pb-#{$n} {
+    padding-bottom: #{$n}px;
+  }
+
+  .pr-#{$n} {
+    padding-right: #{$n}px;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
