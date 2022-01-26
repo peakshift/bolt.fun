@@ -1,19 +1,17 @@
 // --------------------------------
 // Header
 // --------------------------------
-// #header {
-//   height: 60vh;
+#header {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-//   img {
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//   }
-
-//   @include gt-sm {
-//     height: auto;
-//   }
-// }
+  @include gt-sm {
+    height: auto;
+  }
+}
 
 // --------------------------------
 // About
@@ -47,6 +45,11 @@
       display: flex;
       justify-content: center;
       gap: 12px;
+
+      div {
+        width: 60px;
+        text-align: right;
+      }
     }
   }
 }
@@ -178,6 +181,31 @@
   .collapse-open {
     .open-collapse-btn img {
       transform: rotate(180deg);
+    }
+  }
+}
+
+// ----------------------------------
+// Patnerships
+// ----------------------------------
+
+#partenrships {
+  .partners-list {
+    display: grid;
+    overflow: hidden;
+    background-color: gainsboro;
+    gap: 1px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    @include gt-sm {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .partner-card {
+      background-color: white;
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+      }
     }
   }
 }

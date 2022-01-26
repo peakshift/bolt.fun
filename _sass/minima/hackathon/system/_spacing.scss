@@ -62,6 +62,10 @@ $spacing: 4, 8, 10, 12, 14, 16, 20, 24, 30, 32, 36, 40, 42, 48, 52, 64, 72, 80,
   .pr-#{$n} {
     padding-right: #{$n}px;
   }
+
+  .gap-#{$n} {
+    gap: #{$n}px;
+  }
 }
 
 .ml-auto {
@@ -70,6 +74,10 @@ $spacing: 4, 8, 10, 12, 14, 16, 20, 24, 30, 32, 36, 40, 42, 48, 52, 64, 72, 80,
 
 .mr-auto {
   margin-right: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .mx-auto {
