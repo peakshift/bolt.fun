@@ -1,5 +1,5 @@
 
-const COUNTDOWN_DATA = "Feb 25, 2022 12:00:00"
+const COUNTDOWN_DATE = "Feb 25, 2022 12:00:00"
 
 
 // Attach Collpsable lists
@@ -23,7 +23,7 @@ const COUNTDOWN_DATA = "Feb 25, 2022 12:00:00"
 // Countdown timer
 {
 
-    var countDownDate = new Date(COUNTDOWN_DATA).getTime();
+    var countDownDate = new Date(COUNTDOWN_DATE).getTime();
     // Update the count down every 1 second
 
     const counters = document.querySelectorAll('#register-counter .counters-list > div')
