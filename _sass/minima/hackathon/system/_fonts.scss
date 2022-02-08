@@ -131,3 +131,8 @@ $weights: 400, 500, 600, 700, 800;
 .font-bold {
   font-weight: 700;
 }
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}

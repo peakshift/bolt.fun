@@ -1,6 +1,8 @@
 
 const COUNTDOWN_DATE = "Feb 25, 2022 12:00:00"
 
+const UTC_C_D = Date.UTC(2022, 2, 22, 15)
+
 
 // Attach Collpsable lists
 {
@@ -23,14 +25,15 @@ const COUNTDOWN_DATE = "Feb 25, 2022 12:00:00"
 // Countdown timer
 {
 
-    var countDownDate = new Date(COUNTDOWN_DATE).getTime();
+    var countDownDate = UTC_C_D;
     // Update the count down every 1 second
 
     const counters = document.querySelectorAll('#register-counter .counters-list > div')
     const daysCounter = counters[0];
     const hrsCounter = counters[1];
     const secsCounter = counters[2];
-    var x = setInterval(function () {
+
+    function setTime() {
 
         // Get today's date and time
         var now = new Date().getTime();
@@ -52,5 +55,9 @@ const COUNTDOWN_DATE = "Feb 25, 2022 12:00:00"
             clearInterval(x);
             document.getElementById("register-counter").style.display = "none";
         }
+    }
+    setTime();
+    var x = setInterval(function () {
+        setTime()
     }, 1000);
 }

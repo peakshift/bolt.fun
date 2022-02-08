@@ -24,11 +24,9 @@ permalink: /hackathon/
     <!-- Header -->
     <section id="header">
       {% include picture.html image =
-      "/assets/images/hackathons/shock-the-web.png" retina =
-      "/assets/images/hackathons/shock-the-web@2x.png" mobile =
-      "/assets/images/hackathons/shock-the-web-mobile.png" mobileRetina =
-      "/assets/images/hackathons/shock-the-web-mobile@2x.png" alt-text = "Shock
-      the web" width = 1600 height = 800 %}
+      "/assets/images/hackathons/shock-the-web.png" mobile =
+      "/assets/images/hackathons/shock-the-web-mobile.png" alt-text = "Shock the
+      web" width = 1600 height = 800 %}
     </section>
 
     <div class="page-container">
@@ -39,12 +37,16 @@ permalink: /hackathon/
           frontend developers to collaborate and build new lightning web
           applications using WebLN, LNURL, and Lightning Address. The week will
           be filled with guest speakers, workshops, design sprints, and more.
+          <br />
+          <br />
           Enter your own team of up to 5 members, or be paired up with others
           who compliment your skill set. At the end of the 7 days, pitch your
           project with a short 10 video to be examined by our panel of judges.
-          Prizes will be given to 1st, 2nd, and 3rd places! If you're ready to
-          build the next layer of the web, come and join us at our Shock the Web
-          hackaton on Nov 10-17th, 2021.
+          Prizes will be given to 1st, 2nd, and 3rd places!
+          <br />
+          <br />
+          If you're ready to build the next layer of the web, come and join us
+          at our Shock the Web hackaton on Nov 10-17th, 2021.
         </p>
 
         <div id="register-counter">
@@ -54,11 +56,17 @@ permalink: /hackathon/
             <div class="bg-white rounded-10 text-body1 p-10">12h</div>
             <div class="bg-white rounded-10 text-body1 p-10">36s</div>
           </div>
-          <button
-            class="py-20 px-42 bg-blue-900 text-white rounded-10 font-bold"
+          <a
+            href="https://airtable.com/shrJqeGYmGTMKsT1a"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Register Now
-          </button>
+            <button
+              class="py-20 px-42 bg-blue-900 text-white rounded-10 font-bold underline"
+            >
+              Register Now
+            </button>
+          </a>
         </div>
       </section>
 
@@ -67,7 +75,7 @@ permalink: /hackathon/
       <section id="prizes" class="border borders-between rounded-12 mt-100">
         <div class="card mx-auto">
           <img
-            src="/assets/images/hackathons/medal-gold.png"
+            src="/assets/images/hackathons/gold-medal.svg"
             alt="gold medal"
             class="mb-20"
           />
@@ -82,8 +90,8 @@ permalink: /hackathon/
         </div>
         <div class="card mx-auto">
           <img
-            src="/assets/images/hackathons/medal-gold.png"
-            alt="gold medal"
+            src="/assets/images/hackathons/silver-medal.svg"
+            alt="silver medal"
             class="mb-20"
           />
           <div class="info">
@@ -97,8 +105,8 @@ permalink: /hackathon/
         </div>
         <div class="card mx-auto">
           <img
-            src="/assets/images/hackathons/medal-gold.png"
-            alt="gold medal"
+            src="/assets/images/hackathons/bronz-medal.svg"
+            alt="bronz medal"
             class="mb-20"
           />
           <div class="info">
@@ -120,8 +128,17 @@ permalink: /hackathon/
           Google Calendar by embedding
           <a class="text-orange" href="#">this link.</a>
         </p>
+        <div class="bg-gray-200 py-72 rounded-12 text-center mt-48 border">
+          <p class="text-body3 text-gray-500 mx-auto" style="max-width: 250px">
+            Coming soon, stay informed by following
+            <a class="text-blue underline" href="https://twitter.com/peakshift"
+              >Bolt.fun</a
+            >
+            on Twitter
+          </p>
+        </div>
 
-        <div class="border borders-between rounded-12 mt-64">
+        <!-- <div class="border borders-between rounded-12 mt-64">
           <div class="day collapse-container">
             <div class="p-20 flex items-center">
               <h3 class="text-h3 font-bold">Monday</h3>
@@ -344,7 +361,7 @@ permalink: /hackathon/
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
 
       <!-- Judges -->
@@ -352,69 +369,29 @@ permalink: /hackathon/
       <section id="judges" class="mt-130">
         <h2 class="text-h2 font-bold text-black">Judges & Speakers</h2>
         <div class="flex judges-list mt-48">
+          {% for judge in site.data.hackathon.judges %}
           <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+            <img
+              src="/assets/images/hackathons/judges/{{judge.name}}.png"
+              alt="judge bumi"
+            />
+            <p class="mt-30 text-body2 font-bold-600">{{judge.name}}</p>
+            <p class="text-body2 font-bold-400 text-gray-500">{{judge.work}}</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@{{judge.handler}}</a
+            >
           </div>
+          {% endfor %}
           <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
-          </div>
-          <div class="judge-card border rounded-10 flex flex-col items-center">
-            <img src="/assets/images/hackathons/avatar.png" alt="judge bumi" />
-            <p class="mt-30 text-body2 font-bold-600">Bumi</p>
-            <p class="text-body2 font-bold-400 text-gray-500">
-              Bitcoin Developer
-            </p>
-            <a href="#" class="text-blue text-body2 font-bold-400">@someone</a>
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">...</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Coming soon</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@mysterious</a
+            >
           </div>
         </div>
       </section>
@@ -424,11 +401,10 @@ permalink: /hackathon/
         <h2 class="text-h2 font-bold text-black">FAQs</h2>
 
         <div class="borders-between rounded-12 mt-52">
+          {% for qaa in site.data.hackathon.faq %}
           <div class="question collapse-container px-20">
             <div class="py-20 flex items-center">
-              <h3 class="text-h5 text-black font-bold">
-                How many members can I have on my team?
-              </h3>
+              <h3 class="text-h5 text-black font-bold">{{qaa.question}}</h3>
               <button
                 class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
               >
@@ -438,86 +414,13 @@ permalink: /hackathon/
             <div class="collapse-content-wrapper">
               <div class="collapse-content pb-20">
                 <p class="text-body2 text-gray-600 font-bold-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-                  at gravida enim sapien non, est aenean morbi aliquet.
-                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
-                  elementum donec varius imperdiet placerat arcu, in enim
-                  integer. Laoreet consequat nisl non faucibus id egestas
-                  pulvinar.
+                  {{qaa.answer}}
                 </p>
               </div>
             </div>
           </div>
-          <div class="question collapse-container px-20">
-            <div class="py-20 flex items-center">
-              <h3 class="text-h5 text-black font-bold">
-                What sort of projects will we be hacking?
-              </h3>
-              <button
-                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
-              >
-                <img src="/assets/icons/arrow-down.svg" />
-              </button>
-            </div>
-            <div class="collapse-content-wrapper">
-              <div class="collapse-content pb-20">
-                <p class="text-body2 text-gray-600 font-bold-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-                  at gravida enim sapien non, est aenean morbi aliquet.
-                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
-                  elementum donec varius imperdiet placerat arcu, in enim
-                  integer. Laoreet consequat nisl non faucibus id egestas
-                  pulvinar.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="question collapse-container px-20">
-            <div class="py-20 flex items-center">
-              <h3 class="text-h5 text-black font-bold">What are the prizes?</h3>
-              <button
-                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
-              >
-                <img src="/assets/icons/arrow-down.svg" />
-              </button>
-            </div>
-            <div class="collapse-content-wrapper">
-              <div class="collapse-content pb-20">
-                <p class="text-body2 text-gray-600 font-bold-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-                  at gravida enim sapien non, est aenean morbi aliquet.
-                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
-                  elementum donec varius imperdiet placerat arcu, in enim
-                  integer. Laoreet consequat nisl non faucibus id egestas
-                  pulvinar.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="question collapse-container px-20">
-            <div class="py-20 flex items-center">
-              <h3 class="text-h5 text-black font-bold">
-                How will projects be judged?
-              </h3>
-              <button
-                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
-              >
-                <img src="/assets/icons/arrow-down.svg" />
-              </button>
-            </div>
-            <div class="collapse-content-wrapper">
-              <div class="collapse-content pb-20">
-                <p class="text-body2 text-gray-600 font-bold-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-                  at gravida enim sapien non, est aenean morbi aliquet.
-                  Tincidunt tellus sed cum tincidunt nulla fringilla. Diam
-                  elementum donec varius imperdiet placerat arcu, in enim
-                  integer. Laoreet consequat nisl non faucibus id egestas
-                  pulvinar.
-                </p>
-              </div>
-            </div>
-          </div>
+
+          {% endfor %}
         </div>
       </section>
 
@@ -525,76 +428,28 @@ permalink: /hackathon/
       <section id="partenrships" class="mt-130">
         <h2 class="text-h2 font-bold text-black">In partnership with</h2>
         <div class="partners-list border rounded-10 mt-48">
+          {% for partner in site.data.hackathon.partners %}
           <div class="partner-card p-24 flex flex-col">
             <img
-              src="/assets/images/hackathons/Square Crypto.png"
-              alt="judge bumi"
+              src="/assets/images/hackathons/partners/{{partner.name}}.png"
+              alt="{{partner.name}}"
             />
             <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
-              Bitcoin Design
+              {{partner.name}}
             </p>
 
             <p class="text-body2 text-gray-700 font-bold-400 mb-10">
-              Bitcoin Design is an open source community creating design
-              standards and innovation within bitcoin.
+              {{partner.description}}
             </p>
             <p class="text-body2 mt-auto">
-              <a class="text-orange mr-20" href="#">Website</a>
-              <a class="text-blue" href="#">Twitter</a>
+              <a class="text-orange mr-20" href="{{partner.website}}"
+                >Website</a
+              >
+              <a class="text-blue" href="{{partner.twitter}}">Twitter</a>
             </p>
           </div>
-          <div class="partner-card p-24 flex flex-col">
-            <img
-              src="/assets/images/hackathons/Square Crypto.png"
-              alt="judge bumi"
-            />
-            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">Alby</p>
 
-            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
-              A versatile browser extension for Bitcoin and the Lightning
-              Network
-            </p>
-            <p class="text-body2 mt-auto">
-              <a class="text-orange mr-20" href="#">Website</a>
-              <a class="text-blue" href="#">Twitter</a>
-            </p>
-          </div>
-          <div class="partner-card p-24 flex flex-col">
-            <img
-              src="/assets/images/hackathons/Square Crypto.png"
-              alt="judge bumi"
-            />
-            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
-              Peak Shift
-            </p>
-
-            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
-              Peak Shift crafts digital products built on web, mobile, and
-              bitcoin.
-            </p>
-            <p class="text-body2 mt-auto">
-              <a class="text-orange mr-20" href="#">Website</a>
-              <a class="text-blue" href="#">Twitter</a>
-            </p>
-          </div>
-          <div class="partner-card p-24 flex flex-col">
-            <img
-              src="/assets/images/hackathons/Square Crypto.png"
-              alt="judge bumi"
-            />
-            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
-              Square Crypto
-            </p>
-
-            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
-              Building and funding free, open-source projects to make bitcoin
-              the planet’s preferred currency.
-            </p>
-            <p class="text-body2 mt-auto">
-              <a class="text-orange mr-20" href="#">Website</a>
-              <a class="text-blue" href="#">Twitter</a>
-            </p>
-          </div>
+          {% endfor %}
         </div>
       </section>
 
