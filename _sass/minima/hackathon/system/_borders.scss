@@ -1,0 +1,27 @@
+$border-default-color: gainsboro;
+
+// Borders
+.border {
+  border: solid 1px;
+  border-color: $border-default-color;
+}
+
+$directions: (
+  "t": top,
+  "b": bottom,
+  "l": left,
+  "r": right,
+);
+
+@each $label, $direction in $directions {
+  .border-#{$label} {
+    // border
+    border-#{$direction}: solid 1px;
+    border-color: $border-default-color;
+  }
+
+  .border-#{$label}-0 {
+    // border
+    border-#{$direction}: solid 0px;
+  }
+}

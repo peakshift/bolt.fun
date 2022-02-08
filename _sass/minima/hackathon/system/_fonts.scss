@@ -1,0 +1,133 @@
+// Font sizes
+
+// name: ( size , line-height )
+$font-sizes: (
+  "h1": (
+    "47px",
+    "54px",
+  ),
+  "h2": (
+    "36px",
+    "50px",
+  ),
+  "h3": (
+    "29px",
+    "40px",
+  ),
+  "h4": (
+    "22px",
+    "31px",
+  ),
+  "h5": (
+    "19px",
+    "26px",
+  ),
+  "body1": (
+    "24px",
+    "30px",
+  ),
+  "body2": (
+    "18px",
+    "27px",
+  ),
+  "body3": (
+    "16px",
+    "25px",
+  ),
+  "body4": (
+    "14px",
+    "22px",
+  ),
+);
+
+@each $name, $vals in $font-sizes {
+  .text-#{$name} {
+    font-size: unquote(nth($vals, 1));
+    line-height: unquote(nth($vals, 2));
+  }
+}
+
+@mixin font-size-h1 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "h1",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-h2 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "h2",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-h3 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "h3",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-h4 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "h4",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-h5 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "h5",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-body1 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "body1",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-body2 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "body2",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-body3 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "body3",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+// Font weight
+$weights: 400, 500, 600, 700, 800;
+
+@each $w in $weights {
+  .font-bold-#{$w} {
+    font-weight: $w;
+  }
+}
+
+.font-bold {
+  font-weight: 700;
+}

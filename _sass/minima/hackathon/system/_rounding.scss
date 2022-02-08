@@ -1,0 +1,8 @@
+// Rounded
+$rounding: 4, 8, 10, 12, 16, 20;
+
+@each $n in $rounding {
+  .rounded-#{$n} {
+    border-radius: #{$n}px;
+  }
+}
