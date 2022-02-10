@@ -1,5 +1,11 @@
 ---
-permalink: /hackathon/
+permalink: /hackathons/shock-the-web/
+nav_order: 4
+main_nav: true
+title: Shock the Web Hackathon
+secondary_nav: true
+primary_color: 57bc6e
+nav_image: /assets/logos/logo-hackathons.png
 ---
 
 <!DOCTYPE html>
@@ -19,14 +25,18 @@ permalink: /hackathon/
 
     <link href="{{ "/assets/css/hackathon.css" | relative_url }}"
     rel="stylesheet" />
+    <style></style>
   </head>
   <body class="overflow-x-hidden">
+    {%- include svgs.html -%} {%- include header.html -%}
     <!-- Header -->
     <section id="header">
       {% include picture.html image =
-      "/assets/images/hackathons/shock-the-web.png" mobile =
-      "/assets/images/hackathons/shock-the-web-mobile.png" alt-text = "Shock the
-      web" width = 1600 height = 800 %}
+      "/assets/images/hackathons/shock-the-web.png" retina =
+      "/assets/images/hackathons/shock-the-web@2x.png" mobile =
+      "/assets/images/hackathons/shock-the-web-mobile.png" mobileRetina =
+      "/assets/images/hackathons/shock-the-web-mobile@2x.png" width = 1600
+      height = 800 %}
     </section>
 
     <div class="page-container">
@@ -453,10 +463,13 @@ permalink: /hackathon/
         </div>
       </section>
 
-      <footer class="p-20 mt-100">
+      <!-- <footer class="p-20 mt-100">
         <hr class="bg-gray-300 mb-16" />
         <p class="p text-body4 text-gray-300">© 2021 PEAK SHIFT LTD.</p>
-      </footer>
+      </footer> -->
+      <div class="mt-100"></div>
+
+      {%- include footer.html -%}
     </div>
 
     <!-- JS Scripts -->

@@ -18,13 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+navs:
+  - title: Guide
+    url: /guide/
+  - title: Makers
+    url: /makers/
+  - title: Shock the Web Hackathon
+    url: /hackathons/shock-the-web/
+
 title: BOLT.FUN
 email: lightning@peakshift.com
 description: "BOLT.FUN aims to be a fun place for builders to learn about and experiment with Lightning Network technology"
 # baseurl: "Guide" # Only for gh-pages. Comment this line to run the website on localhost:4000
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peakshift
-github_username:  peakshift
+github_username: peakshift
 github_repository_url: "https://github.com/peakshift/bitcoin-ux/"
 # slack_invite_url: "http://bitcoindesigners.org"
 # youtube_url: "https://www.youtube.com/channel/UCXKST1b8Wmq8Zt6b6S_-k3Q"
@@ -53,19 +61,16 @@ minima:
   date_format: "%b %-d, %Y"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       permalink: ":path/:basename"
       image: "https://bitcoindesign.github.io/Guide/assets/images/bitcoin-design-preview.jpg"
 
-
 twitter:
   username: BOLT.FUN
   card: summary
-
 
 social:
   name: BOLT.FUN
@@ -76,7 +81,6 @@ social:
 exclude:
   - README.md
   - _compress_images_cache.yml
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
