@@ -157,6 +157,12 @@
     .judge-card {
       padding: 16px;
       min-width: 220px;
+
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+      }
     }
   }
 }
