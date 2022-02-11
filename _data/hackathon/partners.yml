@@ -1,19 +1,19 @@
 - name: Bitcoin Design
   description: Bitcoin Design is an open source community creating design standards and innovation within bitcoin.
-  website: https://website.com
-  twitter: https://twitter.com/@something
-
-- name: Alby
-  description: A versatile browser extension for Bitcoin and the Lightning Network
-  website: https://website.com
-  twitter: https://twitter.com/@something
+  website: https://bitcoin.design
+  twitter: https://twitter.com/@bitcoin_design
 
 - name: Peak Shift
   description: Peak Shift crafts digital products built on web, mobile, and bitcoin.
-  website: https://website.com
-  twitter: https://twitter.com/@something
+  website: https://peakshift.com
+  twitter: https://twitter.com/@peakshift
 
 - name: Spiral
   description: Building and funding free, open-source projects to make bitcoin the planet’s preferred currency.
-  website: https://website.com
-  twitter: https://twitter.com/@something
+  website: https://spiral.xyz
+  twitter: https://twitter.com/@spiralbtc
+
+- name: Alby
+  description: A versatile browser extension for Bitcoin and the Lightning Network
+  website: https://getalby.com
+  twitter: https://twitter.com/@getalby
