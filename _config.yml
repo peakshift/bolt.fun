@@ -22,7 +22,7 @@ navs:
   - title: Guide
     url: /guide/
   - title: Makers
-    url: /makers/
+    url: https://makers.bolt.fun/
   - title: Hackathon
     url: /hackathons/shock-the-web/
 

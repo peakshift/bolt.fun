@@ -24,6 +24,12 @@
     gap: 40px;
   }
 
+  .text {
+    p:not(:last-of-type) {
+      margin-bottom: 1em;
+    }
+  }
+
   #register-counter {
     flex-shrink: 0;
     margin: 40px auto;
