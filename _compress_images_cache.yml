@@ -199,3 +199,7 @@ assets/images/hackathons/silver-medal.png: silver-medal.png
 assets/images/hackathons/bronz-medal.png: bronz-medal.png
 assets/images/hackathons/judges/Christoph Oho.png: Christoph Oho.png
 assets/images/hackathons/judges/Christoph Ono.png: Christoph Ono.png
+assets/images/landing-page/header-mobile.jpg: header-mobile.jpg
+assets/images/landing-page/header-mobile@2x.jpg: header-mobile@2x.jpg
+assets/images/landing-page/header.jpg: header.jpg
+assets/images/landing-page/header@2x.jpg: header@2x.jpg

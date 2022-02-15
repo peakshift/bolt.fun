@@ -1,0 +1,113 @@
+---
+permalink: /
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOLT.FUN</title>
+    <meta
+      name="description"
+      content="A fun place for builders to learn about and experiment with Lightning Network ⚡️ technology"
+    />
+    <meta property="og:title" content="BOLT.FUN" />
+    <meta
+      property="og:description"
+      content="A fun place for builders to learn about and experiment with Lightning Network ⚡️ technology"
+    />
+    <meta
+      property="og:image"
+      content="/assets/images/landing-page/header.jpg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="{{ "/assets/css/landing-page.css" | relative_url }}"
+    rel="stylesheet" />
+    <style></style>
+  </head>
+  <body class="overflow-x-hidden">
+    {%- include svgs.html -%} {%- include header.html -%}
+    <!-- Header -->
+    <section id="header">
+      {% include picture.html image = "/assets/images/landing-page/header.jpg"
+      retina = "/assets/images/landing-page/header@2x.jpg" mobile =
+      "/assets/images/landing-page/header-mobile.jpg" mobileRetina =
+      "/assets/images/landing-page/header-mobile@2x.jpg" width = 1600 height =
+      800 %}
+    </section>
+
+    <div class="page-container">
+      <div id="about">
+        <p class="text-body2 text-gray-600 mt-100">
+          This site aims to be a fun place for builders to learn about and
+          experiment with Lightning Network ⚡️ technology. We will explore some
+          of the basis of Lightning, such as: invoices, nodes, and wallet
+          architectures within mobile environments. We will also look at
+          monetisation strategies like Lightning Service Providers and methods
+          for web services and publishers to integrate Lightning payments.
+        </p>
+      </div>
+
+      <div id="sections" class="mt-48">
+        <div class="card p-20 border rounded-10 guide">
+          <h2 class="mb-16">Guide</h2>
+          <p class="mb-16 text-body3 text-black">
+            Our ongoing lightning research can be found in Bolt.fun’s guide
+            section.
+          </p>
+          <a href="/guide/"
+            >Explore
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="#svg-arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="card p-20 border rounded-10 makers">
+          <h2 class="mb-16">Makers</h2>
+          <p class="mb-16 text-body3 text-black">
+            A lightning app directory made for and by the bitcoin community.
+          </p>
+          <a href="https://makers.bolt.fun/"
+            >Explore
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="#svg-arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="card p-20 border rounded-10 hackathon">
+          <h2 class="mb-16">Hackathon</h2>
+          <p class="mb-16 text-body3 text-black">
+            Quarterly hackathons to promote lightning application design and
+            development.
+          </p>
+          <a href="/hackathons/shock-the-web/"
+            >Explore
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="#svg-arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-100"></div>
+
+    {%- include footer.html -%}
+
+    <!-- JS Scripts -->
+    <!-- <script src="/js/script.js"></script> -->
+  </body>
+</html>
