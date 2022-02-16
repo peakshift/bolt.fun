@@ -39,6 +39,11 @@
   gap: 40px;
   .card {
     width: 292px;
+
+    @include lt-sm {
+      flex-grow: 1;
+    }
+
     h2 {
       font-family: "Luckiest Guy", cursive;
       font-size: 41px;
