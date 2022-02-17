@@ -1,0 +1,23 @@
+- name: Michael Bumman
+  work: Alby
+  handler: bumi
+
+- name: John Carvalho
+  work: Synonym
+  handler: BitcoinErrorLog
+
+- name: Christoph Ono
+  work: Bitcoin Design
+  handler: GBKS
+
+- name: FiatJaf
+  work: ZEBEDEE
+  handler: fiatjaf
+
+- name: Roy Sheinfeld
+  work: Breez
+  handler: Breez_Tech
+
+- name: André Neves
+  work: ZEBEDEE
+  handler: andreneves

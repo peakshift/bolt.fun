@@ -24,6 +24,12 @@
     gap: 40px;
   }
 
+  .text {
+    p:not(:last-of-type) {
+      margin-bottom: 1em;
+    }
+  }
+
   #register-counter {
     flex-shrink: 0;
     margin: 40px auto;
@@ -49,6 +55,8 @@
       div {
         width: 60px;
         text-align: right;
+        overflow-wrap: normal;
+        font-weight: 500;
       }
     }
   }
@@ -155,6 +163,12 @@
     .judge-card {
       padding: 16px;
       min-width: 220px;
+
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+      }
     }
   }
 }

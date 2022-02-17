@@ -1,4 +1,9 @@
-<footer class="site-footer">
+<footer 
+class="site-footer"
+{% if page.primary_color %}
+style="--primary-color: #{{page.primary_color}}"
+{% endif %}
+>
   <div class="wrapper">
 
     <a class="-logo" href="{{ "/" | relative_url }}" aria-label="Bitcoin design community logo">
@@ -14,7 +19,7 @@
     {%- include social.html -%}  
 
     <nav class="footer-nav" aria-label="Footer navigation">
-      {%- for path in page_paths -%}
+      <!-- {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {% if my_page.main_nav %}
           {%- if my_page.title -%}
@@ -23,7 +28,13 @@
             <a class="page-link{% if current_page == menu_page %} active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {%- endif -%}
         {% endif %}
-      {%- endfor -%}
+      {%- endfor -%} -->
+       {%- for nav_item in site.navs -%} 
+                {% assign current_page = page.url | replace:'/',' ' | truncatewords: 1,"" %}
+                {% assign menu_page = nav_item.url | replace:'/',' ' | truncatewords: 1,"" %}
+                <a class="page-link{% if current_page == menu_page %} active{% endif %}" href="{{ nav_item.url }}">{{ nav_item.title | escape }}</a>
+             
+          {%- endfor -%}
     </nav>
 
   </div>

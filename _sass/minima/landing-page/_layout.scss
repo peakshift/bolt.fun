@@ -1,0 +1,131 @@
+.page-container {
+  // w-[90%] max-w-[960px] mx-auto pb-32
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+// --------------------------------
+// Header
+// --------------------------------
+#header {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @include gt-sm {
+    height: auto;
+  }
+}
+
+#about {
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #404040;
+  }
+}
+
+#sections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  .card {
+    width: 292px;
+
+    @include lt-sm {
+      flex-grow: 1;
+    }
+
+    h2 {
+      font-family: "Luckiest Guy", cursive;
+      font-size: 41px;
+      -webkit-text-stroke: 2px black;
+    }
+
+    a {
+      svg {
+        width: 24px;
+      }
+    }
+
+    &.guide {
+      border-color: #ff9551;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 197, 19, 0.1) 31.77%,
+        rgba(255, 149, 81, 0.1) 100%
+      );
+      h2 {
+        background: -webkit-linear-gradient(
+          -90deg,
+          #ffc513 31.77%,
+          #ff9551 100%
+        );
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      a {
+        color: #ff9551;
+      }
+    }
+
+    &.makers {
+      border-color: #120fad;
+      background: linear-gradient(
+        180deg,
+        rgba(173, 86, 255, 0.1) 31.77%,
+        rgba(18, 15, 173, 0.1) 100%
+      );
+      h2 {
+        background: -webkit-linear-gradient(
+          -90deg,
+          #ad56ff 31.77%,
+          #120fad 100%
+        );
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      a {
+        color: #120fad;
+      }
+    }
+
+    &.hackathon {
+      border-color: #069371;
+      background: linear-gradient(
+        180deg,
+        rgba(179, 235, 108, 0.1) 30.21%,
+        rgba(6, 147, 113, 0.1) 100%
+      );
+      h2 {
+        background: -webkit-linear-gradient(
+          -90deg,
+          #b3eb6c 30.21%,
+          #069371 100%
+        );
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      a {
+        color: #069371;
+      }
+    }
+  }
+}
