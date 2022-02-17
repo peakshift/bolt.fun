@@ -31,10 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const daysCounter = counters[0];
         const hrsCounter = counters[1];
         const secsCounter = counters[2];
-        debugger;
 
         function setTime() {
-            debugger;
+
             // Get today's date and time
             var now = new Date().getTime();
 
