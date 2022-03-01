@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const counters = document.querySelectorAll('#register-counter .counters-list > div')
         const daysCounter = counters[0];
         const hrsCounter = counters[1];
-        const secsCounter = counters[2];
+        const minutesCounter = counters[2];
 
         function setTime() {
 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             daysCounter.textContent = days + 'd'
             hrsCounter.textContent = hours + 'h'
-            secsCounter.textContent = seconds + 's'
+            minutesCounter.textContent = minutes + 'm'
 
             // If the count down is finished, write some text
             if (distance < 0) {
