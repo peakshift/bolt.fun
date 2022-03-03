@@ -203,3 +203,5 @@ assets/images/landing-page/header-mobile.jpg: header-mobile.jpg
 assets/images/landing-page/header-mobile@2x.jpg: header-mobile@2x.jpg
 assets/images/landing-page/header.jpg: header.jpg
 assets/images/landing-page/header@2x.jpg: header@2x.jpg
+assets/images/hackathons/size=mobile.jpg: size=mobile.jpg
+assets/images/hackathons/size=mobile@2x.jpg: size=mobile@2x.jpg
