@@ -119,6 +119,24 @@ $font-sizes: (
   line-height: unquote(nth($vals, 2));
 }
 
+@mixin font-size-body4 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "body4",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
+@mixin font-size-body5 {
+  $vals: map-get(
+    $map: $font-sizes,
+    $key: "body5",
+  );
+  font-size: unquote(nth($vals, 1));
+  line-height: unquote(nth($vals, 2));
+}
+
 // Font weight
 $weights: 400, 500, 600, 700, 800;
 
