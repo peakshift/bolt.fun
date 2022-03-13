@@ -2,10 +2,24 @@
 // Header
 // --------------------------------
 #header {
+  position: relative;
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .banner-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  @include gt-md {
+    .banner-player {
+      display: block;
+    }
   }
 
   @include gt-sm {
@@ -96,8 +110,8 @@
     flex-grow: 1;
 
     img {
-      width: 54px;
-      height: 54px;
+      width: 100px;
+      height: 150px;
       object-fit: cover;
     }
 
@@ -136,13 +150,49 @@
       }
     }
 
+    .day-header {
+      .title {
+        display: flex;
+        gap: 24px;
+        @include font-size-body1;
+
+        @include lt-md {
+          @include font-size-body2;
+        }
+
+        @include xs {
+          flex-direction: column;
+          gap: 8px;
+          .day-number span {
+            display: none;
+          }
+        }
+
+        h3 {
+          position: relative;
+          .ext {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            font-size: 14px;
+          }
+        }
+      }
+    }
     .events {
+      .content {
+        max-width: calc(100% - 30px - 32px);
+      }
+
       .title,
       .date {
-        @include font-size-body3;
+      }
 
-        @include gt-sm {
-          @include font-size-body2;
+      .youtube-link {
+        justify-content: center;
+        @include lt-sm {
+          margin-top: 20px;
+          flex-basis: 100%;
         }
       }
     }
