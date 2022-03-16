@@ -1,115 +1,118 @@
 - day: Tuesday 22
   date-ext: nd
   events:
-    - title: Opening ceremony & team greeting
-      time: 15:00 - 15:30
-      youtube-link: https://www.youtube.com/something
+    - title: Opening ceremony
+      time: 15:00 - 15:20, CET
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
     - title: Introduction to Bitcoin & Lightning ⚡️
-      time: 15:30 - 16:00
+      time: 15:20 - 16:00, CET
       presenter: Johns @ Peak Shift Research
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: Introduction to Alby 🐝
+      time: 16:00 - 16:45, CET
+      presenter: Mortiz @ Alby
       youtube-link: https://www.youtube.com/something
 
-    - title: "SPRINT 0.1 : Defining your focus "
-      time: 16:30 - 18:30
-      youtube-link: https://www.youtube.com/something
-
-    - title: Building your first lightning web app ⚡️
-      time: 18:45 - 19:30
-      presenter: Bumi @ Alby
-      youtube-link: https://www.youtube.com/something
+    - title: "Lightning Sprint 0.1 : Ask the Experts "
+      time: 17:00 - 19:30, CET
+      presenter: Peak Shift Research
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Wednesday 23
   date-ext: rd
   events:
     - title: Welcome back
-      time: 15:00 - 15:15
+      time: 15:00 - 15:10, CET
 
-    - title: Introduction to Alby 🐝
-      time: 15:20 - 16:00
-      presenter: Mortiz @ Alby
-      youtube-link: https://www.youtube.com/something
-
-    - title: "SPRINT 0.2 : Experts + HMWs"
-      time: 16:15 - 18:15
-      youtube-link: https://www.youtube.com/something
-
-    - title: Exploring Lightning’s Web Economy 💸
-      time: 18:30 - 19:15
+    - title: Exploring lightning’s web economy 💸
+      time: 15:10 - 15:55, CET
       presenter: Roy @ Breez
-      youtube-link: https://www.youtube.com/something
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: Building your first lightning web app ⚡️
+      time: 16:00 - 16:45, CET
+      presenter: Bumi @ Alby
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: "Lightning Sprint 0.2 : Map"
+      time: 17:15 - 19:15, CET
+      presenter: Peak Shift Research
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: Building lightning powered games
+      time: 19:30 - 20:15, CET
+      presenter: Andre @ ZEBEDEE
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Thursday 24
   date-ext: th
   events:
     - title: Welcome back
-      time: 15:00 - 15:15
+      time: 15:00 - 15:15, CET
 
-    - title: "SPRINT 0.3 : Sketch & Storyboard"
-      time: 15:15 - 17:15
-      presenter: Mortiz @ Alby
-      youtube-link: https://www.youtube.com/something
+    - title: "Lightning Sprint 0.3 : Sketch, Storyboard, Decide"
+      time: 15:15 - 17:30, CET
+      presenter: Peak Shift Research
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
     - title: Intro to Bitcoin.Design's Guide & UI Kit
-      time: 17:45 - 18:30
+      time: 17:45 - 18:30, CET
       presenter: Christoph @ Bitcoin Design
-      youtube-link: https://www.youtube.com/something
-
-    - title: Building lightning powered games
-      time: 18:45 - 19:25 -
-      presenter: Andre @ ZEBEDEE
-      youtube-link: https://www.youtube.com/something
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: Building Lightning backends
+      time: 18:45 - 19:30, CET
+      presenter: Ben Arc @ LNbits
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Friday 25
   date-ext: th
   events:
     - title: Welcome back
-      time: 15:00 - 15:15
+      time: 15:00 - 15:15, CET
 
     - title: Hacking begins...
-      time: 15:15 - 18:00
-      youtube-link: https://www.youtube.com/something
-
-    - title: Building Lightning backends
-      time: 18:30 - 19:15
-      youtube-link: https://www.youtube.com/something
+      time: 15:15 - 20:00, CET
+      
+    - title: Mentor workshops
+      time: 16:00 - 18:00, CET
 
 - day: Saturday 26
   date-ext: th
   events:
-    - title: Mentors workshops
-      time: 15:00 - 16:00
-      youtube-link: https://www.youtube.com/something
-
     - title: Hacking continues...
-      time: 16:00 - 19:00
+      time: 15:00 - 20:00, CET
+      
+    - title: Mentor workshops
+      time: 16:00 - 17:00, CET
 
 - day: Sunday 27
   date-ext: th
   events:
     - title: Hacking continues...
-      time: 15:00 - 19:00
-      youtube-link: https://www.youtube.com/something
+      time: 15:00 - 19:00, CET
 
-    - title: Submissions open
-      time: 19:00
+    - title: Submissions open on makers.bolt.fun
+      time: 19:00, CET
 
     - title: Community voting begins
-      time: 21:00
+      time: 20:30, CET
 
 - day: Monday 28
   date-ext: th
   events:
     - title: Wrapping up...
-      time: 15:00 - 17:20
+      time: 15:00 - 17:20, CET
 
-    - title: Presentations
-      time: 17:30 - 19:00
-      youtube-link: https://www.youtube.com/something
+    - title: Project presentations
+      time: 17:30 - 19:00, CET
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
-    - title: Results + Closing Ceremony
-      time: 19:30 - 20:30
-      youtube-link: https://www.youtube.com/something
+    - title: Closing Ceremony: Results + Prizes
+      time: 19:30 - 20:30, CET
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
     - title: Post hackathon hangout 🍻
-      time: 20:30
+      time: 20:30 - Break of dawn, CET
