@@ -82,35 +82,65 @@
 
 #prizes {
   display: flex;
-  flex-direction: column;
-  max-width: 320px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 
-  @include gt-sm {
-    flex-direction: row;
-    max-width: none;
-
-    &.borders-between > * {
-      border: 0;
-      border-right: solid;
-      border-width: 1px;
-      border-color: inherit;
-    }
-
-    &.borders-between > *:last-of-type {
-      border-right: none;
-    }
-  }
-
   .card {
-    //   p-32 w-full mx-auto flex-grow
     padding: 32px;
+    border: 1px solid #ddd;
     width: 100%;
     flex-grow: 1;
+    flex-basis: 100%;
+
+    @include xs {
+      &:first-of-type {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      &:last-of-type {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+
+    @include sm {
+      flex-basis: 33%;
+
+      &:first-of-type {
+        border-top-left-radius: 10px;
+      }
+
+      &:nth-of-type(3) {
+        border-top-right-radius: 10px;
+      }
+
+      &:nth-of-type(4) {
+        border-bottom-left-radius: 10px;
+      }
+
+      &:nth-of-type(5) {
+        border-bottom-right-radius: 10px;
+      }
+    }
+
+    @include gt-sm {
+      flex-basis: 20%;
+
+      &:first-of-type {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      &:last-of-type {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
 
     img {
-      width: 100px;
       height: 150px;
       object-fit: cover;
     }

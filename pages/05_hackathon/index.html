@@ -108,8 +108,8 @@ nav_image: /assets/logos/logo-hackathons.png
 
       <!-- Prizes -->
 
-      <section id="prizes" class="border borders-between rounded-12 mt-100">
-        <div class="card mx-auto">
+      <section id="prizes" class="mt-100">
+        <div class="card">
           <img
             src="/assets/images/hackathons/gold-medal.png"
             alt="gold medal"
@@ -117,14 +117,14 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">1st</p>
-            <p class="text-body1 text-gray-900 font-bold">600$</p>
+            <p class="text-body1 text-gray-900 font-bold">1,600$</p>
             <!-- <p class="text-body2">
               <a class="text-orange mr-20" href="#">Site</a>
               <a class="text-blue" href="#">View Pitch</a>
             </p> -->
           </div>
         </div>
-        <div class="card mx-auto">
+        <div class="card">
           <img
             src="/assets/images/hackathons/silver-medal.png"
             alt="silver medal"
@@ -132,14 +132,14 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">2nd</p>
-            <p class="text-body1 text-gray-900 font-bold">300$</p>
+            <p class="text-body1 text-gray-900 font-bold">650$</p>
             <!-- <p class="text-body2">
               <a class="text-orange mr-20" href="#">Site</a>
               <a class="text-blue" href="#">View Pitch</a>
             </p> -->
           </div>
         </div>
-        <div class="card mx-auto">
+        <div class="card">
           <img
             src="/assets/images/hackathons/bronz-medal.png"
             alt="bronz medal"
@@ -147,7 +147,37 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">3rd</p>
-            <p class="text-body1 text-gray-900 font-bold">150$</p>
+            <p class="text-body1 text-gray-900 font-bold">250$</p>
+            <!-- <p class="text-body2">
+              <a class="text-orange mr-20" href="#">Site</a>
+              <a class="text-blue" href="#">View Pitch</a>
+            </p> -->
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/hackathons/best-design-medal.png"
+            alt="best design medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">Best Design</p>
+            <p class="text-body1 text-gray-900 font-bold">100$</p>
+            <!-- <p class="text-body2">
+              <a class="text-orange mr-20" href="#">Site</a>
+              <a class="text-blue" href="#">View Pitch</a>
+            </p> -->
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/hackathons/makers-choice-medal.png"
+            alt="makers choice medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">Makers’ choice</p>
+            <p class="text-body1 text-gray-900 font-bold">Kudos</p>
             <!-- <p class="text-body2">
               <a class="text-orange mr-20" href="#">Site</a>
               <a class="text-blue" href="#">View Pitch</a>
@@ -181,7 +211,9 @@ nav_image: /assets/logos/logo-hackathons.png
         </div> -->
         <div class="border borders-between rounded-12 mt-64">
           {% for day in site.data.hackathon.schedule %}
-          <div class="day collapse-container">
+          <div
+            class="day collapse-container {% if forloop.index == 1 %}collapse-open{% endif %}"
+          >
             <div class="p-20 flex items-center day-header">
               <div class="flex flex-wrap flex-grow items-center">
                 <div class="title flex">
