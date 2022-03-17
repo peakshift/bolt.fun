@@ -82,62 +82,68 @@
 
 #prizes {
   display: flex;
+  gap: 1px;
   flex-wrap: wrap;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  outline: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 10px;
 
   .card {
+    background-color: white;
     padding: 32px;
-    border: 1px solid #ddd;
+    // border-radius: 10px;
+    // border: 1px solid #ddd;
     width: 100%;
     flex-grow: 1;
     flex-basis: 100%;
 
     @include xs {
-      &:first-of-type {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
+      // &:first-of-type {
+      //   border-top-left-radius: 10px;
+      //   border-top-right-radius: 10px;
+      // }
 
-      &:last-of-type {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-      }
+      // &:last-of-type {
+      //   border-bottom-left-radius: 10px;
+      //   border-bottom-right-radius: 10px;
+      // }
     }
 
-    @include sm {
+    @include gt-xs {
       flex-basis: 33%;
 
-      &:first-of-type {
-        border-top-left-radius: 10px;
-      }
+      // &:first-of-type {
+      //   border-top-left-radius: 10px;
+      // }
 
-      &:nth-of-type(3) {
-        border-top-right-radius: 10px;
-      }
+      // &:nth-of-type(3) {
+      //   border-top-right-radius: 10px;
+      // }
 
-      &:nth-of-type(4) {
-        border-bottom-left-radius: 10px;
-      }
+      // &:nth-of-type(4) {
+      //   border-bottom-left-radius: 10px;
+      // }
 
-      &:nth-of-type(5) {
-        border-bottom-right-radius: 10px;
-      }
+      // &:nth-of-type(5) {
+      //   border-bottom-right-radius: 10px;
+      // }
     }
 
-    @include gt-sm {
-      flex-basis: 20%;
+    @include gt-md {
+      flex-basis: calc(20% - 11px);
 
-      &:first-of-type {
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-      }
+      // &:first-of-type {
+      //   border-top-left-radius: 10px;
+      //   border-bottom-left-radius: 10px;
+      // }
 
-      &:last-of-type {
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-      }
+      // &:last-of-type {
+      //   border-top-right-radius: 8px;
+      //   border-bottom-right-radius: 8px;
+      // }
     }
 
     img {
@@ -149,6 +155,10 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+
+      p {
+        white-space: nowrap;
+      }
     }
   }
 }
