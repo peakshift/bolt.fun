@@ -36,7 +36,7 @@ github_username: peakshift
 github_repository_url: "https://github.com/peakshift/bolt.fun/"
 slack_invite_url: "https://bitcoindesign.slack.com/archives/C033CHJAU1J"
 # youtube_url: "https://www.youtube.com/channel/UCXKST1b8Wmq8Zt6b6S_-k3Q"
-twitter_url: "https://twitter.com/peakshift"
+twitter_url: "https://twitter.com/boltfun_btc"
 
 # Build settings
 theme: minima
