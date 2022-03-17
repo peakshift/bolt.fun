@@ -33,10 +33,10 @@ description: "BOLT.FUN aims to be a fun place for builders to learn about and ex
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peakshift
 github_username: peakshift
-github_repository_url: "https://github.com/peakshift/bitcoin-ux/"
-# slack_invite_url: "http://bitcoindesigners.org"
+github_repository_url: "https://github.com/peakshift/bolt.fun/"
+slack_invite_url: "https://bitcoindesign.slack.com/archives/C033CHJAU1J"
 # youtube_url: "https://www.youtube.com/channel/UCXKST1b8Wmq8Zt6b6S_-k3Q"
-twitter_url: "https://twitter.com/peakshift"
+twitter_url: "https://twitter.com/boltfun_btc"
 
 # Build settings
 theme: minima
