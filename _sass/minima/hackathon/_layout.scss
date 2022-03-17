@@ -92,35 +92,31 @@
 
 #prizes {
   display: flex;
-  flex-direction: column;
-  max-width: 320px;
+  gap: 1px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-
-  @include gt-sm {
-    flex-direction: row;
-    max-width: none;
-
-    &.borders-between > * {
-      border: 0;
-      border-right: solid;
-      border-width: 1px;
-      border-color: inherit;
-    }
-
-    &.borders-between > *:last-of-type {
-      border-right: none;
-    }
-  }
+  outline: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 10px;
 
   .card {
-    //   p-32 w-full mx-auto flex-grow
+    background-color: white;
     padding: 32px;
     width: 100%;
     flex-grow: 1;
+    flex-basis: 100%;
+
+    @include gt-xs {
+      flex-basis: 33%;
+    }
+
+    @include gt-md {
+      flex-basis: calc(20% - 11px);
+    }
 
     img {
-      width: 100px;
       height: 150px;
       object-fit: cover;
     }
@@ -129,6 +125,10 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+
+      p {
+        white-space: nowrap;
+      }
     }
   }
 }
