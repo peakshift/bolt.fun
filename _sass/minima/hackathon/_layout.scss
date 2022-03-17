@@ -74,6 +74,16 @@
       }
     }
   }
+
+  #join-slack {
+    text-align: center;
+  }
+
+  @include gt-sm {
+    #join-slack {
+      text-align: left;
+    }
+  }
 }
 
 // --------------------------------
