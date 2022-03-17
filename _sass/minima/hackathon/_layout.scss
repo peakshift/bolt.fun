@@ -83,29 +83,11 @@
 #prizes {
   display: flex;
   flex-wrap: wrap;
-  // flex-direction: column;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 
-  // @include gt-sm {
-  //   flex-direction: row;
-  //   max-width: none;
-
-  //   &.borders-between > * {
-  //     border: 0;
-  //     border-right: solid;
-  //     border-width: 1px;
-  //     border-color: inherit;
-  //   }
-
-  //   &.borders-between > *:last-of-type {
-  //     border-right: none;
-  //   }
-  // }
-
   .card {
-    //   p-32 w-full mx-auto flex-grow
     padding: 32px;
     border: 1px solid #ddd;
     width: 100%;
