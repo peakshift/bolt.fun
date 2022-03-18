@@ -83,22 +83,6 @@ nav_image: /assets/logos/logo-hackathons.png
             decreasing essential onboarding time and creating a fun,
             collaborative environment for both developers and designers.
           </p>
-          <p id="join-slack">
-            <a
-                href="{{ site.slack_invite_url }}"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              <button
-                  class="py-20 my-20 px-42 bg-blue-900 text-white rounded-10 font-bold underline"
-              >
-                Join Us on Slack
-              </button>
-            </a>
-          </p>
-
-          <p><em>We share a Slack workspace with Bitcoin Design. Once you have joined the Slack workspace, join the <a href="{{site.slack_channel_url}}">#bolt-fun channel</a> to hang out with other hackathon participants!</em></p>
-
         </div>
 
         <div id="register-counter">
@@ -120,6 +104,39 @@ nav_image: /assets/logos/logo-hackathons.png
             </button>
           </a>
         </div>
+      </section>
+
+      <!-- Join Slack -->
+      <section id="join-slack" class="mt-40 border rounded-10 p-24">
+        <a
+          href="{{ site.slack_invite_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="py-20 px-42 text-white rounded-10 font-bold flex items-center"
+          >
+            <img
+              class="icon"
+              src="/assets/images/hackathons/slack.svg"
+              alt=""
+            />
+            Join Us on Slack
+          </button>
+        </a>
+
+        <p class="text-body2 text-black font-bold italic">
+          We share a Slack workspace with Bitcoin Design. Once you have joined
+          the Slack workspace, join the
+          <a
+            href="{{site.slack_channel_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="underline"
+            >#bolt-fun channel</a
+          >
+          to hang out with other hackathon participants!
+        </p>
       </section>
 
       <!-- Prizes -->

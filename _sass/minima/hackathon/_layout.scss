@@ -74,14 +74,42 @@
       }
     }
   }
+}
 
-  #join-slack {
-    text-align: center;
+// --------------------------------
+// Join Slack
+// --------------------------------
+
+#join-slack {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  a {
+    flex-shrink: 0;
+    order: 2;
+    &:hover {
+      text-decoration: none;
+    }
+
+    button {
+      background-color: #ef4444;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 14px;
+      }
+    }
   }
-
   @include gt-sm {
-    #join-slack {
-      text-align: left;
+    flex-direction: row;
+    text-align: left;
+
+    a {
+      order: 0;
     }
   }
 }
