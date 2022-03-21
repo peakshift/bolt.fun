@@ -88,6 +88,7 @@ There are also special cases where additional abstraction can be build on top of
 - [Zap wallet](https://zaphq.io/)
 - [Zeus LN wallet](https://zeusln.app/)
 - \*[Blue Wallet](https://bluewallet.io/) (pointed at user's [own LNDHub instance](https://bluewallet.io/lndhub/))
+- [Galoy](https://github.com/GaloyMoney/awesome-galoy) (pointed at user's own [deployed instance](https://github.com/GaloyMoney/galoy/blob/main/DEV.md_))
 
 ## 3rd-party controlled node
 
@@ -103,6 +104,9 @@ The user simply receives an account with all the UI elements needed to interact 
 
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/)
 - \*[Blue Wallet](https://bluewallet.io) (with default LNDHub settings)
+- [Galoy-driven](https://galoy.io)
+  - [Bitcoin Beach](https://ln.bitcoinbeach.com/)
+  - [Bitcoin Jungle](https://bitcoinjungle.app/)
 
 ## Infrastructure Approach Conclusion
 
