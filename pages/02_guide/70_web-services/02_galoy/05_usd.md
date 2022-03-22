@@ -25,7 +25,10 @@ main_classes: -no-top-padding
 
 Galoy is currently working on new USD functionality to allow users to store their BTC stably as a USD local balance. This is done by using an internal dealer service to hedge any bitcoin a user receives to their USD wallet. Users can send payments via any lightning invoice to any Lighting Network wallet using their USD wallet.
 
+Hear Galoy CEO Nicolas Burtey discuss this functionality on [Stephan Livera Podcast](https://stephanlivera.com/episode/346/). 
+
 These queries & mutations would mirror the Lightning ones, and they are also generally divided into "with amount" and "no amount" operations.
+
 
 - Receive
    - usd invoice create
@@ -34,3 +37,5 @@ These queries & mutations would mirror the Lightning ones, and they are also gen
 - Payments
   - invoice payment send
   - usd no amount invoice send
+
+Galoy published an [API explorer](https://studio.apollographql.com/public/galoy-hackathon/explorer?variant=current) for developer experimentation. View the [README](https://studio.apollographql.com/public/galoy-hackathon/home?variant=current). 
