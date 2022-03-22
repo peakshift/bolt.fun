@@ -133,19 +133,19 @@
   date-ext: th
   events:
     - title: Submissions close
-      time: 17:00, CET
+      time: 17:00, CEST
       timezone-link: https://everytimezone.com/s/1b982e40
 
     - title: Final project presentations
-      time: 17:30 - 19:00, CET
+      time: 17:30 - 19:00, CEST
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
       timezone-link: https://everytimezone.com/s/42b78ba9
 
     - title: Results + Closing ceremony 🏆
-      time: 19:30 - 20:30, CET
+      time: 19:30 - 20:30, CEST
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
       timezone-link: https://everytimezone.com/s/66f9dfcb
 
     - title: Post hackathon hangout 🎉
-      time: 20:30 - break of dawn, CET
+      time: 20:30 - break of dawn, CEST
       timezone-link: https://everytimezone.com/s/e60e16ba
