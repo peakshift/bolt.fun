@@ -88,7 +88,7 @@ There are also special cases where additional abstraction can be build on top of
 - [Zap wallet](https://zaphq.io/)
 - [Zeus LN wallet](https://zeusln.app/)
 - \*[Blue Wallet](https://bluewallet.io/) (pointed at user's [own LNDHub instance](https://bluewallet.io/lndhub/))
-- [Galoy](https://github.com/GaloyMoney/awesome-galoy) (pointed at user's own [deployed instance](https://github.com/GaloyMoney/galoy/blob/main/DEV.md_))
+- [Galoy](https://github.com/GaloyMoney/awesome-galoy) (pointed at user's own [deployed instance](https://github.com/GaloyMoney/galoy/blob/main/DEV.md))
 
 ## 3rd-party controlled node
 
