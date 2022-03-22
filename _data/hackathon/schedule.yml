@@ -4,52 +4,62 @@
     - title: Opening ceremony
       time: 15:00 - 15:30, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/6afec25c
 
     - title: Introduction to Bitcoin & Lightning ⚡️
       time: 15:30 - 16:00, CET
       presenter: Johns @ Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/45641e7b
+
     - title: Introduction to Alby 🐝
       time: 16:00 - 16:45, CET
       presenter: Mortiz @ Alby
       youtube-link: https://www.youtube.com/something
+      timezone-link: https://everytimezone.com/s/0c69b08d
 
     - title: Lightning Sprint 0.1
       time: 17:00 - 19:30, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/2c1217b5
 
 - day: Wednesday 23
   date-ext: rd
   events:
     - title: Welcome back
       time: 15:00 - 15:10, CET
+      timezone-link: https://everytimezone.com/s/6be47fa0
 
     - title: Exploring lightning’s web economy 💸
       time: 15:10 - 15:55, CET
       presenter: Roy @ Breez
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/e6d4875a
+
     - title: Building your first lightning web app ⚡️
       time: 16:00 - 16:45, CET
       presenter: Bumi @ Alby
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/80cfe4c9
+
     - title: Lightning Sprint 0.2
       time: 17:00 - 19:00, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/ceb70a0e
+
     - title: USD over Lightning
       time: 20:00 - 20:45, CET
       presenter: Nicolas @ Galoy
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/3f357706
+
     - title: Getting started with the Galoy API
       time: 20:45 - 21:30, CET
       presenter: Arvin @ Galoy
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/0c2b19da
 
 - day: Thursday 24
   date-ext: th
@@ -58,68 +68,84 @@
       time: 15:00 - 15:45, CET
       presenter: Ben Arc @ LNbits
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/9b559a5b
 
     - title: Lightning Sprint 0.3
       time: 16:00 - 18:00, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/cb3bb0c9
 
     - title: Intro to Bitcoin.Design's Guide & UI Kit
       time: 18:15 - 19:00, CET
       presenter: Christoph @ Bitcoin Design
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      timezone-link: https://everytimezone.com/s/2c0aaae1
+
     - title: Building lightning powered games
       time: 19:15 - 20:00, CET
       presenter: Andre @ ZEBEDEE
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/6f248602
 
 - day: Friday 25
   date-ext: th
   events:
     - title: Hacking all day
       time: 15:00 - 20:00, CET
+      timezone-link: https://everytimezone.com/s/778ac94b
 
     - title: Mentors Q+A
       time: 16:00 - 18:00, CET
+      timezone-link: https://everytimezone.com/s/ef7af915
 
 - day: Saturday 26
   date-ext: th
   events:
     - title: Hacking all day
       time: 15:00 - 20:00, CET
+      timezone-link: https://everytimezone.com/s/5617c199
 
     - title: Mentors Q+A
       time: 16:00 - 18:00, CET
+      timezone-link: https://everytimezone.com/s/6cd11377
 
 - day: Sunday 27
   date-ext: th
   events:
     - title: Hacking all day
-      time: 15:00 - 20:00, CET
+      time: 15:00 - 20:00, CEST
+      timezone-link: https://everytimezone.com/s/4291a695
 
     - title: Mentors Q+A
-      time: 16:00 - 17:00, CET
-      
+      time: 16:00 - 17:00, CEST
+      timezone-link: https://everytimezone.com/s/fae8ce8a
+
     - title: Submissions open (makers.bolt.fun)
-      time: 19:00, CET
+      time: 19:00, CEST
+      timezone-link: https://everytimezone.com/s/ab49d685
 
     - title: Makers' voting begins
-      time: 20:30, CET
+      time: 20:30, CEST
+      timezone-link: https://everytimezone.com/s/12fff153
 
 - day: Monday 28
   date-ext: th
   events:
     - title: Submissions close
       time: 17:00, CET
+      timezone-link: https://everytimezone.com/s/1b982e40
 
     - title: Final project presentations
       time: 17:30 - 19:00, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/42b78ba9
 
     - title: Results + Closing ceremony 🏆
       time: 19:30 - 20:30, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      timezone-link: https://everytimezone.com/s/66f9dfcb
 
     - title: Post hackathon hangout 🎉
       time: 20:30 - break of dawn, CET
+      timezone-link: https://everytimezone.com/s/e60e16ba
