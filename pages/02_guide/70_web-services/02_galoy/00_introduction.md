@@ -28,9 +28,9 @@ The Galoy API provides access to onchain and lightning network payments/receipts
 - generate onchain addresses to receive payments
 - pay to an onchain address
 - pay to another user on the same galoy instance
+- send and receive USD over Lightning
 
-The API is available from any deployed Galoy instance at that instance's endpoint. You can play with the offical Galoy testnet instance via a playground setup at: [api.staging.galoy.io/graphql](https://api.staging.galoy.io/graphql)
-
+The API is available from any deployed Galoy instance at that instance's endpoint. A live [mainnet API explorer](https://studio.apollographql.com/public/galoy-hackathon/explorer?variant=current) is available for sending and receiving USD or BTC over Lightning and onchain. Checkout the [README](https://studio.apollographql.com/public/galoy-hackathon/home?variant=current) to get started. Request a JSON web token (providing access to $5 USD wallet and 5k BTC wallet) from the Galoy team by joining the #hackathon channel in [Galoy Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
 
 ---
 
