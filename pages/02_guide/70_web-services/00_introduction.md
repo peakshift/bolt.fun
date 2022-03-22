@@ -28,5 +28,5 @@ Typically you would interact with a Lightning Network and Bitcoin node directly 
 ### [LNURL - API to automate node operations]({{ "/guide/web-services/lnurl" | relative_url }})
 We dive into the withdraw, pay, auth, and channel flows of this open standard for clients to communicate with a Lightning node through HTTP.
 
-### [Galoy - API to run a bitcoin bank]({{ "/guide/web-services/lnurl" | relative_url }})
+### [Galoy - API to run a bitcoin bank]({{ "/guide/web-services/galoy" | relative_url }})
 We explore all the capabilities and features of the Galoy API from the perspective of what any user on a Galoy instance can do. This API is already live for the Bitcoin Beach and Bitcoin Jungle projects.
