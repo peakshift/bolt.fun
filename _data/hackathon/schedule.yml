@@ -3,13 +3,13 @@
   events:
     - title: Opening ceremony
       time: 15:00 - 15:30, CET
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
     - title: Introduction to Bitcoin & Lightning ⚡️
       time: 15:30 - 16:00, CET
       presenter: Johns @ Peak Shift Research
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
+
     - title: Introduction to Alby 🐝
       time: 16:00 - 16:45, CET
       presenter: Mortiz @ Alby
@@ -18,7 +18,7 @@
     - title: Lightning Sprint 0.1
       time: 17:00 - 19:30, CET
       presenter: Peak Shift Research
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
 - day: Wednesday 23
   date-ext: rd
@@ -30,22 +30,22 @@
       time: 15:10 - 15:55, CET
       presenter: Roy @ Breez
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+
     - title: Building your first lightning web app ⚡️
       time: 16:00 - 16:45, CET
       presenter: Bumi @ Alby
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+
     - title: Lightning Sprint 0.2
       time: 17:00 - 19:00, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+
     - title: USD over Lightning
       time: 20:00 - 20:45, CET
       presenter: Nicolas @ Galoy
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+
     - title: Getting started with the Galoy API
       time: 20:45 - 21:30, CET
       presenter: Arvin @ Galoy
@@ -68,7 +68,7 @@
       time: 18:15 - 19:00, CET
       presenter: Christoph @ Bitcoin Design
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-      
+
     - title: Building lightning powered games
       time: 19:15 - 20:00, CET
       presenter: Andre @ ZEBEDEE
@@ -100,7 +100,7 @@
 
     - title: Mentors Q+A
       time: 16:00 - 17:00, CET
-      
+
     - title: Submissions open (makers.bolt.fun)
       time: 19:00, CET
 
