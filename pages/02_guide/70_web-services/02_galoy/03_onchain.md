@@ -11,13 +11,28 @@ main_classes: -no-top-padding
 ---
 
 {% include picture.html 
-   image = "/assets/images/web-services/lnurl/encoding.png"
-   retina = "/assets/images/web-services/lnurl/encoding@2x.png"
-   mobile = "/assets/images/web-services/lnurl/encoding-mobile.png"
-   mobileRetina = "/assets/images/web-services/lnurl/encoding-mobile@2x.png"
+   image = "/assets/images/web-services/introduction.png"
+   retina = "/assets/images/web-services/introduction@2x.png"
+   mobile = "/assets/images/web-services/introduction-mobile.png"
+   mobileRetina = "/assets/images/web-services/introduction-mobile@2x.png"
    alt-text = ""
    width = 1600
    height = 900
    layout = "full-width"
 %}
 
+# Perform onchain operations
+
+These queries & mutations can be used to work with onchain addresses and payments on the Bitcoin network. By default the system generates bech32 (segwit v0) addresses for the user, but users can send to any bitcoin address format.
+
+---
+
+##### Queries/mutations (WIP))
+
+- Addresses
+  - current address
+  - create new address
+
+- Payments
+  - onchain tx fee
+  - onchain payment send

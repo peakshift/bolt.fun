@@ -1,12 +1,12 @@
 ---
 layout: guide
-title: User
+title: Intraledger
 parent: Galoy
 grand_parent: Web Services
 description: All URLs following LNURL spec need to be encoded in the same way as BOLT11 invoices are.
-nav_order: 10
+nav_order: 40
 has_children: false
-permalink: /guide/web-services/galoy/user
+permalink: /guide/web-services/galoy/intraledger
 main_classes: -no-top-padding
 ---
 
@@ -21,24 +21,19 @@ main_classes: -no-top-padding
    layout = "full-width"
 %}
 
-# Perform user-management related operations
+# Perform intraledger operations
 
-These queries & mutations are used to create accounts for new users or authenticate as existing ones. After successful login, there are then operations that can be done to fetch various types of information about the logged in user such as transaction history and wallet ids.
+These queries & mutations can be used to work with other users on the same Galoy instance. Users on an instance have wallets under their account that they can send/receive bitcoin to and from. These operations can be used to query details about a user's wallets and send to other users using their wallet details.
 
 ---
 
 ##### Queries/mutations (WIP))
 
-- Login
-  - request phone code
-  - login
+- User
+   - account default wallet id
+   - update default wallet id
+   - see all wallet ids
 
-- Me
-  - balance
-  - transactions
-  - user default wallet id
-  - account default wallet
-  - account wallets
-  - set username
-  - contacts
-  - example, our mobile app main query
+- Payments
+  - intraLedgerPaymentSend
+  - default wallet id from username
