@@ -2,19 +2,20 @@
   date-ext: nd
   events:
     - title: Opening ceremony
-      time: 15:00 - 15:20, CET
+      time: 15:00 - 15:30, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
     - title: Introduction to Bitcoin & Lightning ⚡️
-      time: 15:20 - 16:00, CET
+      time: 15:30 - 16:00, CET
       presenter: Johns @ Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
     - title: Introduction to Alby 🐝
       time: 16:00 - 16:45, CET
       presenter: Mortiz @ Alby
       youtube-link: https://www.youtube.com/something
 
-    - title: "Lightning Sprint 0.1 : Ask the Experts "
+    - title: Lightning Sprint 0.1
       time: 17:00 - 19:30, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
@@ -29,83 +30,96 @@
       time: 15:10 - 15:55, CET
       presenter: Roy @ Breez
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
     - title: Building your first lightning web app ⚡️
       time: 16:00 - 16:45, CET
       presenter: Bumi @ Alby
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-    - title: "Lightning Sprint 0.2 : Map"
-      time: 17:15 - 19:15, CET
+      
+    - title: Lightning Sprint 0.2
+      time: 17:00 - 19:00, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-    - title: Building lightning powered games
-      time: 19:30 - 20:15, CET
-      presenter: Andre @ ZEBEDEE
+      
+    - title: USD over Lightning
+      time: 20:00 - 20:45, CET
+      presenter: Nicolas @ Galoy
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      
+    - title: Getting started with the Galoy API
+      time: 20:45 - 21:30, CET
+      presenter: Arvin @ Galoy
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Thursday 24
   date-ext: th
   events:
-    - title: Welcome back
-      time: 15:00 - 15:15, CET
+    - title: Building on LNbits
+      time: 15:00 - 15:45, CET
+      presenter: Ben Arc @ LNbits
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
-    - title: "Lightning Sprint 0.3 : Sketch, Storyboard, Decide"
-      time: 15:15 - 17:30, CET
+    - title: Lightning Sprint 0.3
+      time: 16:00 - 18:00, CET
       presenter: Peak Shift Research
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
     - title: Intro to Bitcoin.Design's Guide & UI Kit
-      time: 17:45 - 18:30, CET
+      time: 18:15 - 19:00, CET
       presenter: Christoph @ Bitcoin Design
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
-    - title: Building Lightning backends
-      time: 18:45 - 19:30, CET
-      presenter: Ben Arc @ LNbits
+      
+    - title: Building lightning powered games
+      time: 19:15 - 20:00, CET
+      presenter: Andre @ ZEBEDEE
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Friday 25
   date-ext: th
   events:
-    - title: Welcome back
-      time: 15:00 - 15:15, CET
+    - title: Hacking all day
+      time: 15:00 - 20:00, CET
 
-    - title: Hacking begins...
-      time: 15:15 - 20:00, CET
-    - title: Mentor workshops
+    - title: Mentors Q+A
       time: 16:00 - 18:00, CET
 
 - day: Saturday 26
   date-ext: th
   events:
-    - title: Hacking continues...
+    - title: Hacking all day
       time: 15:00 - 20:00, CET
-    - title: Mentor workshops
-      time: 16:00 - 17:00, CET
+
+    - title: Mentors Q+A
+      time: 16:00 - 18:00, CET
 
 - day: Sunday 27
   date-ext: th
   events:
-    - title: Hacking continues...
-      time: 15:00 - 19:00, CET
+    - title: Hacking all day
+      time: 15:00 - 20:00, CET
 
-    - title: Submissions open on makers.bolt.fun
+    - title: Mentors Q+A
+      time: 16:00 - 17:00, CET
+      
+    - title: Submissions open (makers.bolt.fun)
       time: 19:00, CET
 
-    - title: Community voting begins
+    - title: Makers' voting begins
       time: 20:30, CET
 
 - day: Monday 28
   date-ext: th
   events:
-    - title: Wrapping up...
-      time: 15:00 - 17:20, CET
+    - title: Submissions close
+      time: 17:00, CET
 
-    - title: Project presentations
+    - title: Final project presentations
       time: 17:30 - 19:00, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
-    - title: "Closing Ceremony: Results + Prizes"
+    - title: Results + Closing ceremony 🏆
       time: 19:30 - 20:30, CET
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
-    - title: Post hackathon hangout 🍻
-      time: 20:30 - Break of dawn, CET
+    - title: Post hackathon hangout 🎉
+      time: 20:30 - break of dawn, CET

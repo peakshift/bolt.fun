@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Attach Collpsable lists
     {
-        document.querySelectorAll('.collapse-container').forEach(elm => {
+        document.querySelectorAll('.collapse-container').forEach((elm, idx) => {
             elm.querySelector('.open-collapse-btn').addEventListener('click', () => {
                 elm.classList.toggle('collapse-open');
             })

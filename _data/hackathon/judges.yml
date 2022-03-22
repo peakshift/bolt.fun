@@ -29,3 +29,11 @@
 - name: Ben Arc
   work: LNbits
   handler: arcbtc
+
+- name: Nicolas Burtey
+  work: Galoy
+  handler: nicolasburtey
+
+- name: Arvin R
+  work: Galoy
+  handler: vindaRd
