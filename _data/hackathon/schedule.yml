@@ -3,22 +3,22 @@
   events:
     - title: Opening ceremony
       time: 15:00 - 15:30, CET
-      youtube-link: https://www.youtube.com/c/BitcoinDesign
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
     - title: Introduction to Bitcoin & Lightning ⚡️
       time: 15:30 - 16:00, CET
       presenter: Johns @ Peak Shift Research
-      youtube-link: https://www.youtube.com/c/BitcoinDesign
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
     - title: Introduction to Alby 🐝
       time: 16:00 - 16:45, CET
       presenter: Mortiz @ Alby
-      youtube-link: https://www.youtube.com/c/BitcoinDesign
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
     - title: Lightning Sprint 0.1
       time: 17:00 - 19:30, CET
       presenter: Peak Shift Research
-      youtube-link: https://www.youtube.com/c/BitcoinDesign
+      youtube-link: https://youtu.be/yJ6q7XxBhJY
 
 - day: Wednesday 23
   date-ext: rd
