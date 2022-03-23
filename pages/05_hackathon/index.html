@@ -245,7 +245,7 @@ nav_image: /assets/logos/logo-hackathons.png
         <div class="border borders-between rounded-12 mt-64">
           {% for day in site.data.hackathon.schedule %}
           <div
-            class="day collapse-container {% if forloop.index == 1 %}collapse-open{% endif %}"
+            class="day collapse-container {% if forloop.index == 2 %}collapse-open{% endif %}"
           >
             <div class="p-20 flex items-center day-header">
               <div class="flex flex-wrap flex-grow items-center">
@@ -432,6 +432,39 @@ nav_image: /assets/logos/logo-hackathons.png
                 >Website</a
               >
               <a class="text-blue" href="{{partner.twitter}}">Twitter</a>
+            </p>
+          </div>
+
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Sponsorships -->
+      <section id="sponsors" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Sponsored by</h2>
+        <p class="text-body2 text-gray-900 mt-16">
+          Prizes for Shock the Web have been provided by the following
+          companies.
+        </p>
+        <div class="sponsors-list rounded-10 mt-48">
+          {% for sponsor in site.data.hackathon.sponsors %}
+          <div class="sponsor-card p-24 flex flex-col">
+            <img
+              src="/assets/images/hackathons/sponsors/{{sponsor.name}}.png"
+              alt="{{sponsor.name}}"
+            />
+            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
+              {{sponsor.name}}
+            </p>
+
+            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
+              {{sponsor.description}}
+            </p>
+            <p class="text-body2 mt-auto">
+              <a class="text-orange mr-20" href="{{sponsor.website}}"
+                >Website</a
+              >
+              <a class="text-blue" href="{{sponsor.twitter}}">Twitter</a>
             </p>
           </div>
 

@@ -439,3 +439,52 @@
     }
   }
 }
+
+// ----------------------------------
+// Sponsores
+// ----------------------------------
+
+#sponsors {
+  .sponsors-list {
+    display: grid;
+    // overflow: hidden;
+    gap: 1px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    .sponsor-card {
+      background-color: white;
+      outline: 1px solid #ddd;
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+      }
+
+      &:first-of-type {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      &:last-of-type {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+
+    @include gt-sm {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      .sponsor-card {
+        &:first-of-type {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 0px;
+        }
+
+        &:nth-of-type(2) {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+    }
+  }
+}

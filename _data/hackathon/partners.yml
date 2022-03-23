@@ -3,6 +3,11 @@
   website: https://bitcoin.design
   twitter: https://twitter.com/@bitcoin_design
 
+- name: Alby
+  description: A versatile browser extension for Bitcoin and the Lightning Network
+  website: https://getalby.com
+  twitter: https://twitter.com/@getalby
+
 - name: Peak Shift
   description: Peak Shift crafts digital products built on web, mobile, and bitcoin.
   website: https://peakshift.com
@@ -13,7 +18,12 @@
   website: https://spiral.xyz
   twitter: https://twitter.com/@spiralbtc
 
-- name: Alby
-  description: A versatile browser extension for Bitcoin and the Lightning Network
-  website: https://getalby.com
-  twitter: https://twitter.com/@getalby
+- name: LNbits
+  description: LNbits can run on top of any lightning-network funding source.
+  website: https://lnbits.com
+  twitter: https://twitter.com/@lnbits
+
+- name: Galoy
+  description: Communities and institutions around the world are accelerating Bitcoin and Lightning adoption using Galoy.
+  website: https://galoy.io
+  twitter: https://twitter.com/@galoymoney
