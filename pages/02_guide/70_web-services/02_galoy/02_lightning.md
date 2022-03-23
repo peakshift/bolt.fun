@@ -27,16 +27,211 @@ These queries & mutations can be used to send and receive payments from any othe
 
 ---
 
-##### Queries/mutations (WIP))
+##### Queries/mutations
 
-- Invoices
-  - invoice create
-  - no amount invoice create
-  - invoice behalf create
-  - no amount invoice behalf create
+- **Invoices**
 
-- Payments
-  - fee probe
-  - payment send
-  - no amount fee probe
-  - no amount payment send
+  An authenticated user can create both "with amount" and "no amount" invoices to receive funds over lightning against. An unauthenticated user (anyone really) can create invoices on behalf of other users on the instance.
+
+  - Create "with amount" invoice for authenticated user
+    ```gql
+    mutation lnInvoiceCreateInput($input: LnInvoiceCreateInput!) {
+      lnInvoiceCreate(input: $input) {
+        invoice {
+          paymentRequest
+          paymentHash
+          paymentSecret
+          satoshis
+        }
+        errors {
+          message
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+      "input": {
+          "walletId": "<walletId>",
+          "amount": <number>,
+          "memo": "<memo>"
+      }
+    }
+    ```
+    ---
+
+  - Create "no amount" invoice for authenticated user
+    ```gql
+    mutation lnNoAmountInvoiceCreate($input: LnNoAmountInvoiceCreateInput!) {
+      lnNoAmountInvoiceCreate(input: $input) {
+        invoice {
+          paymentRequest
+          paymentHash
+          paymentSecret
+        }
+        errors {
+          message
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+        "input": {
+            "walletId": "{{walletId}}",
+            "memo": "Test"
+        }
+    }
+    ```
+    ---
+
+  - Create "with amount" invoice on behalf of another user. The user would 
+need to query the target user's "default walletId" to include.
+    ```gql
+    mutation lnInvoiceCreateOnBehalfOfRecipient($input: LnInvoiceCreateOnBehalfOfRecipientInput!) {
+      lnInvoiceCreateOnBehalfOfRecipient(input: $input) {
+        errors {
+          message
+        }
+        invoice {
+          paymentRequest
+          paymentHash
+          paymentSecret
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+      "input": {
+        "amount": 10,
+        "memo": "<memo>",
+        "recipientWalletId": "<walletId>"
+      }
+    }
+    ```
+    ---
+
+  - Create "no amount" invoice on behalf of another user. The user would need to query the target user's "default walletId" to include.
+    ```gql
+    mutation lnNoAmountInvoiceCreateOnBehalfOfRecipient($input: LnNoAmountInvoiceCreateOnBehalfOfRecipientInput!) {
+      lnNoAmountInvoiceCreateOnBehalfOfRecipient(input: $input) {
+        errors {
+          message
+        }
+        invoice {
+          paymentRequest
+          paymentHash
+          paymentSecret
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+      "input": {
+        "memo": "memo",
+        "recipientWalletId": "<walletId>"
+      }
+    }
+    ```
+    ---
+
+- **Payments**
+
+  An authenticated user can use the following mutations to query the fees for a given invoice and to also pay the invoice. Both "with amount" and "no amount" invoice are supoported.
+
+  - Probe fee for a "with amount" invoice
+    ```gql
+    mutation lnInvoiceFeeProbe($input: LnInvoiceFeeProbeInput!) {
+      lnInvoiceFeeProbe(input: $input) {
+        errors {
+          message
+        }
+        amount
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+      "input": {
+        "paymentRequest": "<payment request>",
+        "walletId": "<walletId>"
+      }
+    }
+    ```
+    ---
+
+  - Pay a "with amount" invoice from user's authenticated balance
+    ```gql
+    mutation lnInvoicePaymentSend($input: LnInvoicePaymentInput!) {
+      lnInvoicePaymentSend(input:$input) {
+        status
+        errors {
+          message
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+        "input": {
+            "walletId": "<walletId>",
+            "paymentRequest": "<payment request>",
+            "memo": "<memo>"
+        }
+    }
+    ```
+    ---
+
+  - Probe fee for a "no amount" invoice
+    ```gql
+    mutation LnNoAmountInvoiceFeeProbe($input: LnNoAmountInvoiceFeeProbeInput!) {
+      lnNoAmountInvoiceFeeProbe(input: $input) {
+        errors {
+          message
+        }
+        amount
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+        "input": {
+            "paymentRequest": "<payment request>",
+            "amount": <amount>,
+            "walletId": "<walletId>"
+        }
+    }
+    ```
+    ---
+
+  - Pay a "no amount" invoice from user's authenticated balance
+    ```gql
+    mutation lnNoAmountInvoicePaymentSend($input: LnNoAmountInvoicePaymentInput!) {
+      lnNoAmountInvoicePaymentSend(input:$input) {
+        status
+        errors {
+            message
+        }
+      }
+    }
+    ```
+    _Variables:_
+    ```json
+    {
+        "input": {
+            "walletId": "<walletId>",
+            "paymentRequest": "<payment request>",
+            "amount": <amount>,
+            "memo": "<memo>"
+        }
+    }
+    ```
