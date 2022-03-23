@@ -29,6 +29,8 @@ Hear Galoy CEO Nicolas Burtey discuss this functionality on [Stephan Livera Podc
 
 These queries & mutations would mirror the Lightning ones, and they are also generally divided into "with amount" and "no amount" operations.
 
+---
+##### Queries/mutations (WIP))
 
 - Receive
    - usd invoice create
