@@ -19,7 +19,7 @@
   twitter: https://twitter.com/@spiralbtc
 
 - name: LNbits
-  description: LNbits can run on top of any lightning-network funding source.
+  description: Lightning wallet and accounts system with extensions.
   website: https://lnbits.com
   twitter: https://twitter.com/@lnbits
 
