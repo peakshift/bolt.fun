@@ -85,7 +85,7 @@ nav_image: /assets/logos/logo-hackathons.png
           </p>
         </div>
 
-        <div id="register-counter">
+        <!-- <div id="register-counter">
           <p class="text-black text-body2">Hackathon starts in</p>
           <div class="counters-list">
             <div class="bg-white rounded-10 text-body1 p-10">--d</div>
@@ -103,7 +103,7 @@ nav_image: /assets/logos/logo-hackathons.png
               Register Now
             </button>
           </a>
-        </div>
+        </div> -->
       </section>
 
       <!-- Join Slack -->
@@ -150,11 +150,16 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">1st</p>
-            <p class="text-body1 text-gray-900 font-bold">$1600</p>
-            <!-- <p class="text-body2">
-              <a class="text-orange mr-20" href="#">Site</a>
-              <a class="text-blue" href="#">View Pitch</a>
-            </p> -->
+            <p class="text-body1 text-gray-900 font-bold">Atlanta BitDevs</p>
+            <p class="text-body2">
+              <a
+                class="text-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://arionparking.tech/"
+                >Arion Parking</a
+              >
+            </p>
           </div>
         </div>
         <div class="card">
@@ -165,11 +170,16 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">2nd</p>
-            <p class="text-body1 text-gray-900 font-bold">$650</p>
-            <!-- <p class="text-body2">
-              <a class="text-orange mr-20" href="#">Site</a>
-              <a class="text-blue" href="#">View Pitch</a>
-            </p> -->
+            <p class="text-body1 text-gray-900 font-bold">dnilabs</p>
+            <p class="text-body2">
+              <a
+                class="text-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/lnbits/lnbits-legend"
+                >LNbits Legend</a
+              >
+            </p>
           </div>
         </div>
         <div class="card">
@@ -180,11 +190,16 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">3rd</p>
-            <p class="text-body1 text-gray-900 font-bold">$250</p>
-            <!-- <p class="text-body2">
-              <a class="text-orange mr-20" href="#">Site</a>
-              <a class="text-blue" href="#">View Pitch</a>
-            </p> -->
+            <p class="text-body1 text-gray-900 font-bold">Rene Aaron</p>
+            <p class="text-body2">
+              <a
+                class="text-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://webln.twentyuno.net/"
+                >TwentyUno</a
+              >
+            </p>
           </div>
         </div>
         <div class="card">
@@ -195,26 +210,16 @@ nav_image: /assets/logos/logo-hackathons.png
           />
           <div class="info">
             <p class="text-body2 text-gray-500 font-bold-400">Best Design</p>
-            <p class="text-body1 text-gray-900 font-bold">$100</p>
-            <!-- <p class="text-body2">
-              <a class="text-orange mr-20" href="#">Site</a>
-              <a class="text-blue" href="#">View Pitch</a>
-            </p> -->
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="/assets/images/hackathons/makers-choice-medal.png"
-            alt="makers choice medal"
-            class="mb-20"
-          />
-          <div class="info">
-            <p class="text-body2 text-gray-500 font-bold-400">Makers’ choice</p>
-            <p class="text-body1 text-gray-900 font-bold">Kudos</p>
-            <!-- <p class="text-body2">
-              <a class="text-orange mr-20" href="#">Site</a>
-              <a class="text-blue" href="#">View Pitch</a>
-            </p> -->
+            <p class="text-body1 text-gray-900 font-bold">Atlanta BitDevs</p>
+            <p class="text-body2">
+              <a
+                class="text-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://arionparking.tech/"
+                >Arion Parking</a
+              >
+            </p>
           </div>
         </div>
       </section>
@@ -279,7 +284,9 @@ nav_image: /assets/logos/logo-hackathons.png
                     <p class="date text-body4 font-bold-400 text-gray-600">
                       {{event.time}} {% if event.presenter %} -
                       {{event.presenter}} {% endif %}
-                      <a href="{{event.timezone-link}}"> ⏰&nbsp;See in your timezone</a>
+                      <a href="{{event.timezone-link}}">
+                        ⏰&nbsp;See in your timezone</a
+                      >
                     </p>
                   </div>
 
