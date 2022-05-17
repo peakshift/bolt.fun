@@ -352,10 +352,10 @@ nav_image: /assets/logos/logo-hackathons.png
               </button>
             </div>
             <div class="collapse-content-wrapper">
-              <div class="collapse-content pb-20">
-                <p class="text-body2 text-gray-600 font-bold-400">
-                  {{qaa.answer}}
-                </p>
+              <div
+                class="collapse-content pb-20 text-body2 text-gray-600 font-bold-400"
+              >
+                {{qaa.answer | markdownify}}
               </div>
             </div>
           </div>

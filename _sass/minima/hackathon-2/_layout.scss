@@ -285,6 +285,14 @@
       transform: rotate(180deg);
     }
   }
+
+  .collapse-content a {
+    &:hover,
+    &:active {
+      color: map-get($map: map-get($colors, "blue"), $key: 500);
+    }
+    color: map-get($map: map-get($colors, "blue"), $key: 500);
+  }
 }
 
 // ----------------------------------

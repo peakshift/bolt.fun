@@ -1,0 +1,61 @@
+- question: What is Shock the Web?
+  answer:
+    Shock the Web is a virtual hackathon to promote, explore, build and design web applications that can interact with WebLN enabled wallets and browsers. We want to make building on bitcoin more accessible to the masses of web developers out there.
+    <br/><br/>
+    Bitcoin development can seem scary for new developers coming in, but it doesn't have to be. With the lightning network's toolkit and libraries a bunch of new opportunities are waiting to be explored. We hope these hackathons can be a chance for you to preview what is possible on bitcoin and the lightning network by fostering collaboration, hopefully shortening (or easing) any developer onboarding time, and helping you connect with other makers in a fun and friendly space.
+
+- question: When and where will it take place?
+  answer:
+    Shock the Web 2 ⚡️ will take place online between 16th-19th June (Thu-Sun). All workshops, events, talks, and panels from day one will be streamed straight onto [BOLT🔩FUN’s YouTube channel](https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg), so you can join us live or catch up in your own time!
+    <br/><br/>
+    All communications, team building, news, updates, schedules, mentorship, and everything else will take place inside of [BOLT🔩FUN's Discord](https://discord.gg/xSwxNrdJ) - so jump in and say hi 👋 to other makers, begin forming teams, discussing project ideas, and get started on your lightning journey!
+
+- question: What will we be doing?
+  answer:
+    Just like last time, our first day of hacking will be dedicated to providing makers with some awesome lightning workshops, talks, discussions, and more from some of the industry's leading experts!
+    <br/><br/>
+    We'll then roll into 3 days of straight up hacking - allowing makers to connect with other participants + mentors, working away at building awesome lightning web apps! On the final evening, makers will submit their projects for review and have a chance to present them live to the maker community and our judges!
+
+- question: This is my first time hacking on lightning, will there be help?
+  answer:
+    "As mentioned, our first day of hacking will be dedicated to providing makers with some awesome lightning workshops, talks, discussions, and more from some of the industry's leading experts! This should provide some valuable insight and resources on getting started building your first lightning web app.
+    <br/><br/>
+    And if that’s not enough, we've got over 10 hours worth of online tutorials, workshops, and talks to get you started hacking at lightning speed! Just visit BOLT🔩FUN's [YouTube](https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg) or [BitcoinTV](https://bitcointv.com/a/boltfun/video-channels) channels and get started with some of these great tutorials:
+    <br/><br/>
+    - [Introduction to Bitcoin & Lightning]
+    - [Introduction to the Alby Web Extension](https://www.youtube.com/watch?v=q-Em8UISSck)
+    - [Building Your First Lightning Web App](https://www.youtube.com/watch?v=FT9MiC5pQh8)
+    - [Building on LNbits](https://www.youtube.com/watch?v=2k5s055rYT8)
+    - [Getting started with the Galoy API](https://www.youtube.com/watch?v=r6Zm3ki3IXs)
+    <br/><br/>
+    But that’s not all! Some of the kind folks over at Alby have also just released a [WebLN Guide](https://www.webln.guide) so you can get started building your first lightning web app in minutes! "
+
+- question: Who can take part?
+  answer:
+    "Anyone! Hackathons are often very developer focused, and design is often left to one side. However, great products or experiences require this gap to be bridged. It's time to get designers and developers on the same team so we can create fun and cool new products.
+    <br/><br/>
+    We’d love to involve anyone that wants to take part: designers, developers, PMs, consultants, noobs! Everyone is welcome."
+
+- question: Looking for a team to hack with?
+  answer:
+    "If you’re looking for a team to hack with, jump into our Discord and introduce yourself in our #team-building channel. Let other makers know who you are, where you’re from, what skills, resources, and time you can offer, plus what you’re excited to hack on over the course of the weekend!
+    <br/><br/>
+    Teams are self-organised, however we’d advise structuring your team so that you have a variety of skill sets (designers, devs, PMs, artists, researchers, copywriters, etc)."
+
+- question: How will projects be judged?
+  answer:
+    "We will have a panel of judges who will evaluate all final project submissions on Sunday evening (19th, UTC). They will judge projects on the following criteria:
+    <br/>
+    🎯 Value Proposition: Does the app have a market? Can it make an impact in this market?
+    <br/>
+    💡 Innovation: Is that something we’ve seen before or it brings something new? Is there use of innovative technologies?
+    <br/>
+    ⚡️ Lightning Integration: Has the product used lightning and WebLN? Does it feel natural? Does it provide significant value to the lightning/bitcoin community (and beyond)?
+    <br/>
+    ✅ Execution: Although it’s a hackathon, attention to details and UI/UX focus are important. How well has the project executed their idea?
+    <br/>
+    🍒 UI/UX Design: Taking into account both UI and UX, how well is the application or feature designed?
+    <br/>
+    🔥 Je ne sais quoi: Taking into account the overall feel or “coolness” of the application. Does it have that extra level of pazaz?
+    <br/><br/>
+    Judges will score each category from 1-5, with a total possible score of 30. Scores will be tallied up, giving us 1st, 2nd, and 3rd places. In the case that any of the top 3 teams have equal points totals, we can decide a last minute tie break vote."
