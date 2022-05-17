@@ -1,0 +1,483 @@
+---
+permalink: /hackathons/shock-the-web-2/
+nav_order: 4
+main_nav: true
+title: Shock the Web Hackathon
+secondary_nav: true
+primary_color: 57bc6e
+nav_image: /assets/logos/logo-hackathons.png
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shock the web | Hackathon</title>
+    <meta
+      name="description"
+      content="#ShockTheWeb⚡️ is a virtual hackathon to promote, explore, build and design web applications that can interact with WebLN enabled wallets and browsers. Our goal is to make building on bitcoin and lightning more accessible to web developers, decreasing essential onboarding time and creating a fun, collaborative environment for both bitcoin devs and designers."
+    />
+    <meta property="og:title" content="Shock the web | Hackathon" />
+    <meta
+      property="og:description"
+      content="#ShockTheWeb⚡️ is a virtual hackathon to promote, explore, build and design web applications that can interact with WebLN enabled wallets and browsers. Our goal is to make building on bitcoin and lightning more accessible to web developers, decreasing essential onboarding time and creating a fun, collaborative environment for both bitcoin devs and designers."
+    />
+    <meta
+      property="og:image"
+      content="/assets/images/hackathon-2/shock-the-web.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="{{ "/assets/css/hackathon-2.css" | relative_url }}"
+    rel="stylesheet" />
+    <style></style>
+  </head>
+  <body class="overflow-x-hidden">
+    {%- include svgs.html -%} {%- include header.html -%}
+    <!-- Header -->
+    <section id="header">
+      {% include picture.html image = "/assets/images/hackathon-2/header.jpg"
+      retina = "/assets/images/hackathon-2/header@2x.jpg" mobile =
+      "/assets/images/hackathon-2/header-mobile.png" mobileRetina =
+      "/assets/images/hackathon-2/header-mobile@2x.png" width = 1600 height =
+      800 %}
+    </section>
+
+    <div class="page-container">
+      <!-- About -->
+      <section id="about" class="mt-100">
+        <div class="text">
+          <p class="text-body2 text-gray-600">
+            Shock the Web ⚡️ is a 7 day virtual hackathon, bringing together
+            bitcoiners to promote, explore, build and design web applications
+            that can interact with WebLN enabled wallets and browsers. During
+            the hackathon we'll be hosting guided sprint modules for your
+            product team, workshops and talks, as well as ongoing mentorship
+            from some friendly bitcoin developers and designers to help you
+            along the way.
+          </p>
+          <p class="text-body2 text-gray-600">
+            Bitcoin development can seem scary for new developers coming in, but
+            it doesn't have to be. With the lightning network's toolkit and
+            libraries a bunch of new opportunities are waiting to be explored.
+            You'll get a primer on some important low level bitcoin concepts,
+            but the goal is to make things and have fun! Our goal is to make
+            building on bitcoin and lightning more accessible to web developers,
+            decreasing essential onboarding time and creating a fun,
+            collaborative environment for both developers and designers.
+          </p>
+        </div>
+
+        <div id="register-counter">
+          <p class="text-black text-body2">Hackathon starts in</p>
+          <div class="counters-list">
+            <div class="bg-white rounded-10 text-body1 p-10">--d</div>
+            <div class="bg-white rounded-10 text-body1 p-10">--h</div>
+            <div class="bg-white rounded-10 text-body1 p-10">--m</div>
+          </div>
+          <div class="flex flex-col gap-8">
+            <a
+              href="https://airtable.com/shrJqeGYmGTMKsT1a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="py-20 px-42 bg-blue-900 text-white w-full rounded-10 font-bold"
+              >
+                Register Now
+              </button>
+            </a>
+            <a
+              href="https://discord.gg/TAvtXEMdch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="discord-btn py-20 px-42 text-white w-full rounded-10 font-bold"
+              >
+                <img
+                  src="/assets/icons/discord.svg"
+                  alt="clock"
+                  class="icon mr-4"
+                />
+                Join us in Discord
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prizes -->
+
+      <section id="prizes" class="mt-100">
+        <div class="card">
+          <img
+            src="/assets/images/hackathon-2/gold-medal.png"
+            alt="gold medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">1st</p>
+            <p class="text-body1 text-gray-900 font-bold">$$$</p>
+            <!-- <p class="text-body2">
+              <a
+                class="text-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="link"
+                >LINK</a
+              >
+            </p> -->
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/hackathon-2/silver-medal.png"
+            alt="silver medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">2nd</p>
+            <p class="text-body1 text-gray-900 font-bold">$$$</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/hackathon-2/bronz-medal.png"
+            alt="bronz medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">3rd</p>
+            <p class="text-body1 text-gray-900 font-bold">$$$</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/hackathon-2/best-design-medal.png"
+            alt="best design medal"
+            class="mb-20"
+          />
+          <div class="info">
+            <p class="text-body2 text-gray-500 font-bold-400">Best Design</p>
+            <p class="text-body1 text-gray-900 font-bold">$$$</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule / Calendar -->
+      <section id="calender" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Schedule / Calendar</h2>
+        <p class="text-body2 text-gray-600">
+          Follow all events live or on catch-up. You can link your iCal or
+          Google Calendar by embedding
+          <a
+            class="text-orange"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://calendar.google.com/calendar/u/0?cid=Y19pdGtncWc4M3V0bHFubjludDJnZHBpbHBzMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+            >this link.</a
+          >
+        </p>
+        <div class="bg-gray-200 py-72 rounded-12 text-center mt-48 border">
+          <p class="text-body3 text-gray-500 mx-auto" style="max-width: 250px">
+            Coming soon, stay informed by following
+            <a
+              class="text-blue underline"
+              href="https://twitter.com/BUILDwithBOLTS"
+              >Bolt.fun</a
+            >
+            on Twitter
+          </p>
+        </div>
+        <!-- <div class="border borders-between rounded-12 mt-64">
+          {% for day in site.data.hackathon_2.schedule %}
+          <div
+            class="day collapse-container {% if forloop.index == 3 %}collapse-open{% endif %}"
+          >
+            <div class="p-20 flex items-center day-header">
+              <div class="flex flex-wrap flex-grow items-center">
+                <div class="title flex">
+                  <h3 class="font-bold">
+                    {{day.day}} <span class="ext">{{day.date-ext}}</span>
+                  </h3>
+                  <h3 class="font-bold text-gray-400 day-number">
+                    <span> - </span> Day {{ forloop.index }}
+                  </h3>
+                </div>
+                <p class="text-body2 text-gray-600 ml-auto flex-shrink-0">
+                  {{day.events | size}} events
+                </p>
+              </div>
+
+              <button class="open-collapse-btn bg-gray-200 rounded-8 ml-20">
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="events collapse-content border-t borders-between">
+                {% for event in day.events %}
+                <div class="p-20 flex flex-wrap items-start">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32 content">
+                    <h4 class="title text-body2 font-bold-600">
+                      {{event.title}}
+                    </h4>
+                    <p class="date text-body4 font-bold-400 text-gray-600">
+                      {{event.time}} {% if event.presenter %} -
+                      {{event.presenter}} {% endif %}
+                      <a href="{{event.timezone-link}}">
+                        ⏰&nbsp;See in your timezone</a
+                      >
+                    </p>
+                  </div>
+
+                  {% if event.youtube-link %}
+                  <div
+                    class="youtube-link flex flex-shrink-0 link self-center ml-auto"
+                  >
+                    <a
+                      href="{{event.youtube-link}}"
+                      class="mr-10 text-blue flex-shrink-0 text-body3"
+                      >Watch</a
+                    >
+                    <img
+                      src="/assets/icons/youtube.svg"
+                      alt="clock"
+                      class="icon"
+                    />
+                  </div>
+                  {% endif %}
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div> -->
+      </section>
+
+      <!-- Judges -->
+
+      <section id="judges" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Judges & Speakers</h2>
+        <div class="flex judges-list mt-48">
+          <!-- {% for judge in site.data.hackathon_2.judges %}
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img
+              src="/assets/images/hackathon-2/judges/{{judge.name}}.png"
+              alt="judge bumi"
+            />
+            <p class="mt-30 text-body2 font-bold-600">{{judge.name}}</p>
+            <p class="text-body2 font-bold-400 text-gray-500">{{judge.work}}</p>
+            <a
+              href="https://twitter.com/{{judge.handler}}"
+              class="text-blue text-body2 font-bold-400"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@{{judge.handler}}</a
+            >
+          </div>
+          {% endfor %} -->
+          <!-- COMING SOON JUDGES -->
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section id="faqs" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">FAQs</h2>
+
+        <div class="borders-between rounded-12 mt-52">
+          {% for qaa in site.data.hackathon_2.faq %}
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">{{qaa.question}}</h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="collapse-content pb-20">
+                <p class="text-body2 text-gray-600 font-bold-400">
+                  {{qaa.answer}}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Patenerships -->
+      <!-- <section id="partenrships" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Supported by</h2>
+        <div class="partners-list border rounded-10 mt-48">
+          {% for partner in site.data.hackathon_2.partners %}
+          <div class="partner-card p-24 flex flex-col">
+            <img
+              src="/assets/images/hackathon-2/partners/{{partner.name}}.png"
+              alt="{{partner.name}}"
+            />
+            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
+              {{partner.name}}
+            </p>
+
+            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
+              {{partner.description}}
+            </p>
+            <p class="text-body2 mt-auto">
+              <a class="text-orange mr-20" href="{{partner.website}}"
+                >Website</a
+              >
+              <a class="text-blue" href="{{partner.twitter}}">Twitter</a>
+            </p>
+          </div>
+
+          {% endfor %}
+        </div>
+      </section> -->
+
+      <!-- Sponsorships -->
+      <!-- <section id="sponsors" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Sponsored by</h2>
+        <p class="text-body2 text-gray-900 mt-16">
+          Prizes for Shock the Web have been provided by the following
+          companies.
+        </p>
+        <div class="sponsors-list rounded-10 mt-48">
+          {% for sponsor in site.data.hackathon_2.sponsors %}
+          <div class="sponsor-card p-24 flex flex-col">
+            <img
+              src="/assets/images/hackathon-2/sponsors/{{sponsor.name}}.png"
+              alt="{{sponsor.name}}"
+            />
+            <p class="text-body1 text-gray-900 font-bold mt-20 mb-10">
+              {{sponsor.name}}
+            </p>
+
+            <p class="text-body2 text-gray-700 font-bold-400 mb-10">
+              {{sponsor.description}}
+            </p>
+            <p class="text-body2 mt-auto">
+              <a class="text-orange mr-20" href="{{sponsor.website}}"
+                >Website</a
+              >
+              <a class="text-blue" href="{{sponsor.twitter}}">Twitter</a>
+            </p>
+          </div>
+
+          {% endfor %}
+        </div>
+      </section> -->
+
+      <!-- Past Events -->
+      <section id="past-events" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Past Events</h2>
+
+        <div class="past-events-list mt-48">
+          <a
+            href="/hackathons/shock-the-web/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="past-event-card rounded-16 border">
+              <img
+                src="/assets/images/hackathon-2/header.jpg"
+                alt="Shock the web 1"
+              />
+              <div class="p-16 flex flex-col gap-8">
+                <p class="text-h5 text-gray-900 font-bold mt-20 mb-10">
+                  Shock the Web ⚡️
+                </p>
+                <p class="text-body3 text-gray-700 font-bold-400 mb-10">
+                  March 22-28, 2022<span class="badge text-body4"
+                    >Complete</span
+                  >
+                </p>
+                <p class="text-body4 text-gray-700 font-bold-400 mb-10">
+                  <img
+                    src="/assets/icons/users.svg"
+                    alt="users icon"
+                    class="icon mr-4"
+                  />
+                  156 participants
+                </p>
+                <p class="text-body4 text-gray-700 font-bold-400 mb-10">
+                  <img
+                    src="/assets/images/hackathon-2/atlanta-bits-dev.png"
+                    alt="atlanta-bits-dev logo"
+                    class="mr-4"
+                    style="width: 32px"
+                  />
+                  Congrats AtlantaBitDevs
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="mt-100"></div>
+
+      {%- include footer.html -%}
+    </div>
+
+    <!-- JS Scripts -->
+    <script defer src="/js/hackathon-2.js"></script>
+  </body>
+</html>
