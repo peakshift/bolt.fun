@@ -16,9 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const setCollapseMenuHeight = () => {
                 const contentWrapperElm = elm.querySelector('.collapse-content-wrapper');
-                contentWrapperElm.style.setProperty('--max-content-height', contentWrapperElm.scrollHeight)
+                contentWrapperElm.style.setProperty('--max-content-height', contentWrapperElm.scrollHeight + 3)
             }
-            setCollapseMenuHeight();
+
+            setTimeout(setCollapseMenuHeight, 300)
 
             window.addEventListener('resize', setCollapseMenuHeight)
         })
