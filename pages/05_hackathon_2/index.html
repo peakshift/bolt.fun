@@ -44,6 +44,15 @@ nav_image: /assets/logos/logo-hackathons.png
     {%- include svgs.html -%} {%- include header.html -%}
     <!-- Header -->
     <section id="header">
+      <lottie-player
+        src="/assets/images/hackathon-2/banner.json"
+        background="transparent"
+        speed="1"
+        style="width: 100%; height: auto"
+        loop
+        autoplay
+        class="banner-player"
+      ></lottie-player>
       {% include picture.html image = "/assets/images/hackathon-2/header.jpg"
       retina = "/assets/images/hackathon-2/header@2x.jpg" mobile =
       "/assets/images/hackathon-2/header-mobile.jpg" mobileRetina =
@@ -468,5 +477,9 @@ nav_image: /assets/logos/logo-hackathons.png
 
     <!-- JS Scripts -->
     <script defer src="/js/hackathon-2.js"></script>
+    <script
+      async
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
   </body>
 </html>
