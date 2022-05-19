@@ -1,0 +1,48 @@
+.page-container {
+  // w-[90%] max-w-[960px] mx-auto pb-32
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.borders-between > * {
+  border-bottom: solid 1px;
+  border-color: inherit;
+}
+
+.borders-between > *:last-of-type {
+  border-bottom: none;
+}
+
+// Collapse lists
+
+.collapse-container {
+  .collapse-content-wrapper {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 800ms ease-in-out;
+  }
+
+  &.collapse-open {
+    .collapse-content-wrapper {
+      max-height: calc(1px * var(--max-content-height));
+    }
+  }
+
+  .collapse-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transform-origin: top center;
+    transition: all 800ms ease-in-out;
+  }
+
+  &.collapse-open {
+    .collapse-content {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+}

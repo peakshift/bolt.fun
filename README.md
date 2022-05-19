@@ -4,7 +4,6 @@ Template by the [Bitcoin Design Community](https://github.com/BitcoinDesign)
 
 Website: https://bolt.fun/guide/
 
-
 ## How to build and run the site locally
 
 You'll want to run the site locally to test your changes.

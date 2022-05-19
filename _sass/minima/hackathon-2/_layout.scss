@@ -73,6 +73,10 @@
         font-weight: 500;
       }
     }
+
+    button.discord-btn {
+      background-color: #7c3aed;
+    }
   }
 }
 
@@ -281,6 +285,14 @@
       transform: rotate(180deg);
     }
   }
+
+  .collapse-content a {
+    &:hover,
+    &:active {
+      color: map-get($map: map-get($colors, "blue"), $key: 500);
+    }
+    color: map-get($map: map-get($colors, "blue"), $key: 500);
+  }
 }
 
 // ----------------------------------
@@ -484,6 +496,42 @@
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
         }
+      }
+    }
+  }
+}
+
+// ----------------------------------
+// Past Events
+// ----------------------------------
+#past-events {
+  .past-events-list {
+    display: grid;
+
+    @include xs {
+      grid-template-columns: 1fr;
+    }
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+
+    a:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .past-event-card {
+      overflow: hidden;
+      & > img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+      }
+
+      .badge {
+        padding: 4px 12px;
+        border-radius: 16px;
+        background-color: #f0fdf4;
+        color: #22c55e;
+        margin-left: 8px;
       }
     }
   }
