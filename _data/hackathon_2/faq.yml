@@ -23,13 +23,12 @@
     <br/><br/>
     And if that’s not enough, we've got over 10 hours worth of online tutorials, workshops, and talks to get you started hacking at lightning speed! Just visit BOLT🔩FUN's [YouTube](https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg) or [BitcoinTV](https://bitcointv.com/a/boltfun/video-channels) channels and get started with some of these great tutorials:
     <br/><br/>
-    - [Introduction to Bitcoin & Lightning]
-    - [Introduction to the Alby Web Extension](https://www.youtube.com/watch?v=q-Em8UISSck)
-    - [Building Your First Lightning Web App](https://www.youtube.com/watch?v=FT9MiC5pQh8)
-    - [Building on LNbits](https://www.youtube.com/watch?v=2k5s055rYT8)
+    - [Introduction to the Alby Web Extension](https://www.youtube.com/watch?v=q-Em8UISSck)<br/>
+    - [Building Your First Lightning Web App](https://www.youtube.com/watch?v=FT9MiC5pQh8)<br/>
+    - [Building on LNbits](https://www.youtube.com/watch?v=2k5s055rYT8)<br/>
     - [Getting started with the Galoy API](https://www.youtube.com/watch?v=r6Zm3ki3IXs)
     <br/><br/>
-    But that’s not all! Some of the kind folks over at Alby have also just released a [WebLN Guide](https://www.webln.guide) so you can get started building your first lightning web app in minutes! "
+    But that’s not all! Some of the kind folks over at Alby have also just released a [WebLN Guide](https://www.webln.guide/) so you can get started building your first lightning web app in minutes!"
 
 - question: Who can take part?
   answer:
@@ -46,17 +45,17 @@
 - question: How will projects be judged?
   answer:
     "We will have a panel of judges who will evaluate all final project submissions on Sunday evening (19th, UTC). They will judge projects on the following criteria:
-    <br/>
-    🎯 Value Proposition: Does the app have a market? Can it make an impact in this market?
-    <br/>
-    💡 Innovation: Is that something we’ve seen before or it brings something new? Is there use of innovative technologies?
-    <br/>
-    ⚡️ Lightning Integration: Has the product used lightning and WebLN? Does it feel natural? Does it provide significant value to the lightning/bitcoin community (and beyond)?
-    <br/>
-    ✅ Execution: Although it’s a hackathon, attention to details and UI/UX focus are important. How well has the project executed their idea?
-    <br/>
-    🍒 UI/UX Design: Taking into account both UI and UX, how well is the application or feature designed?
-    <br/>
-    🔥 Je ne sais quoi: Taking into account the overall feel or “coolness” of the application. Does it have that extra level of pazaz?
     <br/><br/>
-    Judges will score each category from 1-5, with a total possible score of 30. Scores will be tallied up, giving us 1st, 2nd, and 3rd places. In the case that any of the top 3 teams have equal points totals, we can decide a last minute tie break vote."
+    - 🎯 Value Proposition: Does the app have a market? Can it make an impact?
+    <br/>
+    - 💡 Innovation: Is that something we’ve seen before or it brings something new? Is there use of innovative technologies?
+    <br/>
+    - ⚡️ Lightning Integration: Has the product used lightning and WebLN? Does it feel natural? Does it provide significant value to the bitcoin community (and beyond)?
+    <br/>
+    - ✅ Execution: Although it’s a hackathon, attention to details and UI/UX focus are important. How well has the project executed their idea?
+    <br/>
+    - 🍒 UI/UX Design: Taking into account both UI and UX, how well is the application or feature designed?
+    <br/>
+    - 🔥 Je ne sais quoi: Taking into account the overall feel or “coolness” of the application. Does it have that extra level of pazaz?
+    <br/><br/>
+    Judges will score each category from 1-5, with a total possible score of 30. Scores will be tallied up, giving us 1st, 2nd, and 3rd places. In the case that any of the top 3 teams have equal points totals, we can decide winners with a last minute tie break vote."
