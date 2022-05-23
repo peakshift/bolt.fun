@@ -276,7 +276,7 @@
     display: none;
 
     @include gt-md {
-      display: block;
+      display: flex;
     }
   }
 }
