@@ -1,1 +1,38 @@
- 
+- day: Thursday 16
+  date-ext: th
+
+- day: Friday 17
+  date-ext: th
+  events:
+    - title: Hacking all day...
+      time: 12:00 - 20:00 PM, UTC
+
+    - title: Q+A with mentors
+      time: 14:00 - 16:00 PM, UTC
+
+- day: Saturday 18
+  date-ext: th
+  events:
+    - title: Hacking all day...
+      time: 12:00 - 20:00 PM, UTC
+
+    - title: Q+A with mentors
+      time: 14:00 - 16:00 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+- day: Sunday 19
+  date-ext: th
+  events:
+    - title: Submissions close
+      time: 16:00 PM, UTC
+
+    - title: Final presentations
+      time: 17:00 - 19:00 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Results + closing ceremony 🏆
+      time: 20:00 - 20:30 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Post hackathon hangout 🎉
+      time: 20:30 - break of dawn, UTC

@@ -1,0 +1,19 @@
+- name: Ben Arc
+  work: LNbits
+  handler: arcbtc
+
+- name: Moritz Kaminski
+  work: Alby
+  handler: moritzkaminski
+
+- name: Roy Sheinfeld
+  work: Breez
+  handler: Breez_Tech
+
+- name: John Carvalho
+  work: Synonym
+  handler: BitcoinErrorLog
+
+- name: Stephen DeLorme
+  work: Bitcoin Design
+  handler: StephenDeLorme
