@@ -250,18 +250,45 @@ nav_image: /assets/logos/logo-hackathons.png
 
                   {% if event.youtube-link %}
                   <div
-                    class="youtube-link flex flex-shrink-0 link self-center ml-auto"
+                    class="youtube-link flex flex-shrink-0 link text-blue-500 self-center ml-auto"
                   >
                     <a
                       href="{{event.youtube-link}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       class="mr-10 text-blue flex-shrink-0 text-body3"
                       >Watch</a
                     >
                     <img
                       src="/assets/icons/youtube.svg"
-                      alt="clock"
+                      alt="youtube"
                       class="icon"
                     />
+                  </div>
+                  {% endif %} {% if event.discord-link %}
+                  <div
+                    class="discord-link flex flex-shrink-0 link text-blue-500 self-center ml-auto"
+                  >
+                    <a
+                      href="{{event.discord-link}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="mr-10 text-blue flex-shrink-0 text-body3"
+                      >Join</a
+                    >
+                    <svg
+                      class="icon"
+                      width="24"
+                      height="20"
+                      viewBox="0 0 24 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.3303 2.22781C18.7767 1.50093 17.1156 0.972672 15.3789 0.671875C15.1656 1.05749 14.9164 1.57614 14.7446 1.98873C12.8985 1.71109 11.0693 1.71109 9.25716 1.98873C9.08539 1.57614 8.83055 1.05749 8.61536 0.671875C6.87681 0.972672 5.21376 1.50287 3.66019 2.23166C0.526643 6.96686 -0.322811 11.5845 0.101917 16.1365C2.18025 17.6885 4.19441 18.6313 6.17457 19.2483C6.66349 18.5754 7.09953 17.8601 7.47518 17.1063C6.75975 16.8344 6.07453 16.499 5.42707 16.1095C5.59884 15.9822 5.76686 15.8492 5.92918 15.7123C9.87819 17.5594 14.1689 17.5594 18.0707 15.7123C18.235 15.8492 18.403 15.9822 18.5728 16.1095C17.9235 16.5009 17.2364 16.8363 16.521 17.1082C16.8966 17.8601 17.3308 18.5774 17.8216 19.2502C19.8036 18.6333 21.8197 17.6905 23.898 16.1365C24.3964 10.8595 23.0467 6.28434 20.3303 2.22781ZM8.01318 13.337C6.82772 13.337 5.85555 12.2303 5.85555 10.8826C5.85555 9.53497 6.80696 8.42636 8.01318 8.42636C9.21942 8.42636 10.1916 9.53303 10.1708 10.8826C10.1727 12.2303 9.21942 13.337 8.01318 13.337ZM15.9867 13.337C14.8013 13.337 13.8291 12.2303 13.8291 10.8826C13.8291 9.53497 14.7805 8.42636 15.9867 8.42636C17.193 8.42636 18.1651 9.53303 18.1444 10.8826C18.1444 12.2303 17.193 13.337 15.9867 13.337Z"
+                        fill="#3f51b5"
+                      />
+                    </svg>
                   </div>
                   {% endif %}
                 </div>
@@ -304,6 +331,39 @@ nav_image: /assets/logos/logo-hackathons.png
             >
           </div>
           {% endfor %}
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <div
+              class="bg-gray-100 rounded-12"
+              style="width: 150px; height: 150px"
+            ></div>
+            <p class="mt-30 text-body2 font-bold-600">TBD</p>
+            <p class="text-body2 font-bold-400 text-gray-500">Mystery role</p>
+            <a href="#" class="text-blue text-body2 font-bold-400"
+              >@comingsoon</a
+            >
+          </div>
         </div>
       </section>
 
@@ -368,6 +428,42 @@ nav_image: /assets/logos/logo-hackathons.png
           </div>
 
           {% endfor %}
+        </div>
+      </section>
+
+      <!-- Sponsor Us -->
+      <section id="sponsor-us" class="mt-130">
+        <img
+          class="bolt-up"
+          src="/assets/images/hackathon-2/bolt-wire-up.png"
+          alt=""
+        />
+        <img
+          class="bolt-bottom"
+          src="/assets/images/hackathon-2/bolt-wire-bottom.png"
+          alt=""
+        />
+        <div class="wrapper">
+          <img src="/assets/images/hackathon-2/3d-coin.png" alt="" />
+          <div class="content">
+            <h3>Want to be a sponsor?</h3>
+            <p>
+              If you’re interested in sponsoring Shock the Web⚡️2, please fill
+              out the form below and we’ll get in touch!
+            </p>
+            <a
+              href="https://airtable.com/shrDCHSQKaVqEQ7hA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="py-20 px-42 text-white w-full rounded-10"
+                style="background: #41b070"
+              >
+                Fill out sponsorship form
+              </button>
+            </a>
+          </div>
         </div>
       </section>
 

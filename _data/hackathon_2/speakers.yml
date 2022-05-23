@@ -1,15 +1,14 @@
 - name: Rene Aaron
   work: Maker
   handler: _reneaaron
+# - name: Arvin R
+#   work: Galoy
+#   handler: vindaRd
 
-- name: Arvin R
-  work: Galoy
-  handler: vindaRd
+# - name: Roy Sheinfeld
+#   work: Breez
+#   handler: Breez_Tech
 
-- name: Roy Sheinfeld
-  work: Breez
-  handler: Breez_Tech
-
-- name: John Carvalho
-  work: Synonym
-  handler: BitcoinErrorLog
+# - name: John Carvalho
+#   work: Synonym
+#   handler: BitcoinErrorLog
