@@ -24,6 +24,10 @@
 - day: Sunday 19
   date-ext: th
   events:
+    - title: Q+A with mentors
+      time: Q+A with mentors
+      discord-link: https://discord.gg/HFqtxavb7x
+
     - title: Submissions close
       time: 16:00 PM, UTC
 
