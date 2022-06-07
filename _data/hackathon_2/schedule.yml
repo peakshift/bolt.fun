@@ -4,34 +4,43 @@
 - day: Friday 17
   date-ext: th
   events:
-    - title: Hacking all day...
+    - title: Hacking begins 💻
       time: 12:00 - 20:00 PM, UTC
 
-    - title: Q+A with mentors
+    - title: Q+A with mentors ❓
       time: 14:00 - 16:00 PM, UTC
       discord-link: https://discord.gg/HFqtxavb7x
+
+    - title: Makers hangout 🍕
+      time: 20:00 - 21:00 PM, UTC
 
 - day: Saturday 18
   date-ext: th
   events:
-    - title: Hacking all day...
+    - title: Hacking continues 💻
       time: 12:00 - 20:00 PM, UTC
 
-    - title: Q+A with mentors
+    - title: Q+A with mentors ❓
       time: 14:00 - 16:00 PM, UTC
       discord-link: https://discord.gg/HFqtxavb7x
+
+    - title: Makers hangout 🍕
+      time: 20:00 - 21:00 PM, UTC
 
 - day: Sunday 19
   date-ext: th
   events:
-    - title: Q+A with mentors
-      time: Q+A with mentors
+    - title: Hacking continues 💻
+      time: 12:00 - 20:00 PM, UTC
+
+    - title: Q+A with mentors ❓
+      time: 12:00 - 13:00 PM, UTC
       discord-link: https://discord.gg/HFqtxavb7x
 
-    - title: Submissions close
+    - title: Submissions close 🚨
       time: 16:00 PM, UTC
 
-    - title: Final presentations
+    - title: Final presentations 🍿
       time: 17:00 - 19:00 PM, UTC
       youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
