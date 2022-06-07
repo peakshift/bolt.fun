@@ -21,3 +21,11 @@
 - name: Conor Okus
   work: Spiral
   handler: ConorOkus
+
+- name: Oleg Mikhalsky
+  work: Fulgur Ventures
+  handler: olegmikh1
+
+- name: Nifty Nei
+  work: Blockstream
+  handler: niftynei
