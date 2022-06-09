@@ -1,5 +1,37 @@
 - day: Thursday 16
   date-ext: th
+  events:
+    - title: Opening ceremony
+      time: 12:00 - 12:30 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Opportunities awaiting Bitcoin developers
+      time: 12:30 - 12:55 PM, UTC - Oluwasegun Kosemani
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: "Panel Discussion: Web3 on Lightning ⚡"
+      time: 13:00 - 14:00 PM, UTC - Roy Sheinfeld, John Carvalho + others
+      twitter-link: https://mobile.twitter.com/boltfun_btc
+
+    - title: Reimagining lightning UX on web
+      time: 14:10 - 14:40 PM, UTC - Anthony Potdevin
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Introduction to WebLN Guide
+      time: 14:45 - 15:00 PM, UTC - Moritz Kaminski
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: WebLN Guide + LN app template demo
+      time: 15:00 - 16:00 PM, UTC - Rene Aaron
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Getting started w. LL’s ⚡️ LNC web package
+      time: 17:00 - 18:00 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+
+    - title: Getting started w. LL’s ⚡️ LSATs/Aperature
+      time: 18:00 - 18:45 PM, UTC
+      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
 
 - day: Friday 17
   date-ext: th

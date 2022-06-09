@@ -226,14 +226,18 @@
         max-width: calc(100% - 30px - 32px);
       }
 
-      .youtube-link,
-      .discord-link {
+      .watch-link {
         align-self: center;
         justify-content: center;
 
         @include lt-sm {
           margin-top: 20px;
           flex-basis: 100%;
+        }
+
+        img,
+        svg {
+          max-height: 25px;
         }
 
         a,

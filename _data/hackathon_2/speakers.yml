@@ -23,5 +23,9 @@
   handler: GBKS
 
 - name: Evan Kaloudis
-  work: Zeus LN
+  work: Lightning Labs
   handler: evankaloudis
+
+- name: Hannah Rosenberg
+  work: Lightning Labs
+  handler: hmichellerose
