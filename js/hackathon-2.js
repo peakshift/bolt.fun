@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const UTC_C_D = Date.UTC(2022, 5, 16, 15)
+    const UTC_C_D = Date.UTC(2022, 5, 16, 12)
 
 
     // Attach Collpsable lists
