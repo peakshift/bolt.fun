@@ -33,7 +33,7 @@ nav_image: /assets/logos/logo-hackathons.png
       rel="stylesheet"
     />
 
-    <link href="{{ "/assets/css/hackathon-2.css" | relative_url }}"
+    <link href="{{ "/assets/css/lightning-halloween.css" | relative_url }}"
     rel="stylesheet" />
     <style></style>
   </head>
@@ -41,15 +41,6 @@ nav_image: /assets/logos/logo-hackathons.png
     {%- include svgs.html -%} {%- include header.html -%}
     <!-- Header -->
     <section id="header">
-      <lottie-player
-        src="/assets/images/lightning-halloween/banner.json"
-        background="transparent"
-        speed="1"
-        style="width: 100%; height: auto"
-        loop
-        autoplay
-        class="banner-player"
-      ></lottie-player>
       {% include picture.html image = "/assets/images/lightning-halloween/header.png"
       retina = "/assets/images/lightning-halloween/header@2x.png" mobile =
       "/assets/images/lightning-halloween/header-mobile.png" mobileRetina =
@@ -453,10 +444,6 @@ nav_image: /assets/logos/logo-hackathons.png
     </div>
 
     <!-- JS Scripts -->
-    <script defer src="/js/hackathon-2.js"></script>
-    <script
-      async
-      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-    ></script>
+    <script defer src="/js/lightning-halloween.js"></script>
   </body>
 </html>
