@@ -1,0 +1,31 @@
+- name: Rene Aaron
+  work: Maker
+  handler: _reneaaron
+
+- name: Oluwasegun. K
+  work: Botmecash
+  handler: MrlamilamiKosch
+
+- name: Roy Sheinfeld
+  work: Breez
+  handler: Breez_Tech
+
+- name: John Carvalho
+  work: Synonym
+  handler: BitcoinErrorLog
+
+- name: Anthony Potdevin
+  work: Amboss
+  handler: tonyioi
+
+- name: Christoph Ono
+  work: Bitcoin Design
+  handler: GBKS
+
+- name: Evan Kaloudis
+  work: Lightning Labs
+  handler: evankaloudis
+
+- name: Hannah Rosenberg
+  work: Lightning Labs
+  handler: hmichellerose

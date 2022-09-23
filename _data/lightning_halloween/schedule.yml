@@ -1,0 +1,149 @@
+- day: October, Sunday 30
+  date-ext: th
+  events:
+    - title: BUS 🚌
+      time: 12:45 - 14:00
+
+    - title: BUS 🚌
+      time: 14:00 - 16:00
+
+    - title: BUS 🚌
+      time: 16:00 - 16:30
+
+    - title: Welcome
+      time: 16:30 - 18:30
+
+    - title: NETWORKING APERITIF
+      time: 18:30 -20:30
+
+    - title: DINNER
+      time: 20:30
+
+- day: October, Monday 31
+  date-ext: st
+  events:
+    - title: BREAKFAST
+      time: 08:45 - 09:30
+
+    - title: SPEECH 1
+      time: 09:30 - 10:45
+
+    - title: BREAK
+      time: 10:45 - 11:00
+
+    - title: SPEECH 2
+      time: 11:00 - 12:45
+
+    - title: LUNCH
+      time: 12:45 - 14:00
+
+    - title: FREE SPEECH/ CODING
+      time: 14:00 - 16:00
+
+    - title: BREAK
+      time: 16:00 - 16:30
+
+    - title: FREE SPEECH/ CODING
+      time: 16:30 - 18:30
+
+    - title: NETWORKING TIME
+      time: 18:30 -20:30
+
+    - title: DINNER
+      time: 20:30
+
+- day: November, Tuesday 1
+  date-ext: st
+  events:
+    - title: BREAKFAST
+      time: 08:45 - 09:30
+
+    - title: SPEECH 3
+      time: 09:30 - 10:45
+
+    - title: BREAK
+      time: 10:45 - 11:00
+
+    - title: SPEECH 4
+      time: 11:00 - 12:45
+
+    - title: LUNCH
+      time: 12:45 - 14:00
+
+    - title: FREE SPEECH/ CODING
+      time: 14:00 - 16:00
+
+    - title: BREAK
+      time: 16:00 - 16:30
+
+    - title: FREE SPEECH/ CODING
+      time: 16:30 - 18:30
+
+    - title: NETWORKING TIME
+      time: 18:30 -20:30
+
+    - title: DINNER
+      time: 20:30
+
+- day: November, Wednesday 2
+  date-ext: nd
+  events:
+    - title: BREAKFAST
+      time: 08:45 - 09:30
+
+    - title: SPEECH 5
+      time: 09:30 - 10:45
+
+    - title: BREAK
+      time: 10:45 - 11:00
+
+    - title: SPEECH 6
+      time: 11:00 - 12:45
+
+    - title: LUNCH
+      time: 12:45 - 14:00
+
+    - title: FREE SPEECH/ CODING
+      time: 14:00 - 16:00
+
+    - title: BREAK
+      time: 16:00 - 16:30
+
+    - title: FREE SPEECH/ CODING
+      time: 16:30 - 18:30
+
+    - title: NETWORKING TIME
+      time: 18:30 -20:30
+
+    - title: DINNER + PARTY
+      time: 20:30
+
+- day: November, Thursday 3
+  date-ext: rd
+  events:
+    - title: BREAKFAST
+      time: 08:45 - 09:30
+
+    - title: CULTURAL ACTIVITY
+      time: 09:30 - 10:45
+
+    - title: CULTURAL ACTIVITY
+      time: 10:45 - 11:00
+
+    - title: CULTURAL ACTIVITY
+      time: 11:00 - 12:45
+
+    - title: LUNCH
+      time: 12:45 - 14:00
+
+    - title: FREE-TIME
+      time: 14:00 - 16:00
+
+    - title: FREE-TIME
+      time: 16:00 - 16:30
+
+    - title: FREE-TIME
+      time: 16:30 - 18:30
+
+    - title: FREE-TIME
+      time: 18:30 -20:30
