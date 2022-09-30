@@ -1,31 +1,17 @@
-- name: Rene Aaron
-  work: Maker
-  handler: _reneaaron
+- name: Christian Moss
+  file_name: christian-moss
 
-- name: Oluwasegun. K
-  work: Botmecash
-  handler: MrlamilamiKosch
+- name: David Coen
+  file_name: david-coen
 
-- name: Roy Sheinfeld
-  work: Breez
-  handler: Breez_Tech
+- name: Federico Tenga
+  file_name: federico-tenga
 
-- name: John Carvalho
-  work: Synonym
-  handler: BitcoinErrorLog
+- name: Giacomo Zucco
+  file_name: giacomo-zucco
 
-- name: Anthony Potdevin
-  work: Amboss
-  handler: tonyioi
+- name: Jimmy Song
+  file_name: jimmy-song
 
-- name: Christoph Ono
-  work: Bitcoin Design
-  handler: GBKS
-
-- name: Evan Kaloudis
-  work: Lightning Labs
-  handler: evankaloudis
-
-- name: Hannah Rosenberg
-  work: Lightning Labs
-  handler: hmichellerose
+- name: Riccardo Masutti
+  file_name: riccardo-masutti
