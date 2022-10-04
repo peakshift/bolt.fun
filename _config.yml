@@ -21,10 +21,10 @@
 navs:
   - title: Guide
     url: /guide/
-  - title: Makers
+  - title: Makers Directory
     url: https://makers.bolt.fun/
-  - title: Hackathon
-    url: /hackathons/shock-the-web-2/
+  - title: Tournament
+    url: https://makers.bolt.fun/tournaments/1
 
 title: BOLT.FUN
 email: lightning@peakshift.com
