@@ -5,28 +5,39 @@ html {
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
-
 }
-
-
 
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
   color: rgba(var(--front), 0.72);
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
@@ -34,10 +45,8 @@ body {
   overflow-wrap: break-word;
   letter-spacing: 0.5px;
   width: 100%;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-
-
 
 .small {
   font-size: $small-font-size;
@@ -46,9 +55,19 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
   margin-top: $spacing-unit / 2;
 }
@@ -70,8 +89,6 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-
-
 /**
  * Images
  */
@@ -80,8 +97,6 @@ img {
   height: auto;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -108,7 +123,6 @@ figcaption {
   }
 }
 
-
 /**
  * iframes
  */
@@ -119,7 +133,8 @@ iframe {
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
@@ -130,13 +145,16 @@ li {
   }
 }
 
-
-
 /**
  * Headings
  */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $heavy-font-weight;
   line-height: 1.4;
   color: var(--frontHex);
@@ -145,7 +163,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   letter-spacing: -0.03em;
 }
-
 
 /**
  * Links
@@ -173,7 +190,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -188,7 +204,7 @@ blockquote {
 
   cite {
     display: inline-block;
-    @include responsive('font-size', 16, 22);
+    @include responsive("font-size", 16, 22);
     font-style: normal;
   }
 
@@ -196,19 +212,18 @@ blockquote {
     margin-bottom: 0;
   }
 
-  i, em {
+  i,
+  em {
     font-style: normal;
   }
 }
 
 blockquote,
 blockquote > p {
-  @include responsive('font-size', 22, 28);
+  @include responsive("font-size", 22, 28);
   line-height: 1.4;
   color: #474747;
 }
-
-
 
 /**
  * Code formatting
@@ -247,8 +262,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -275,7 +288,6 @@ pre {
   box-sizing: border-box;
 }
 
-
 /**
  * Clearfix
  */
@@ -284,8 +296,6 @@ pre {
   display: table;
   clear: both;
 }
-
-
 
 /**
  * Icons
@@ -308,7 +318,6 @@ pre {
   vertical-align: text-bottom;
 }
 
-
 /**
  * Tables
  */
@@ -319,7 +328,8 @@ table {
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
-  th, td {
+  th,
+  td {
     padding: ($spacing-unit / 3) 0;
   }
   th {
@@ -335,7 +345,7 @@ table {
   @include media-query(large) {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
 
@@ -348,9 +358,9 @@ a.footnote {
 ul.task-list {
   list-style: none inside;
   li {
-    margin-left: 0!important;
-      input {
-        margin: 0 1rem 0 0;
-      }
+    margin-left: 0 !important;
+    input {
+      margin: 0 1rem 0 0;
+    }
   }
 }
