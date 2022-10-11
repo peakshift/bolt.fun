@@ -2,9 +2,9 @@
   work: Bitcoin expert and author
   file_name: jimmy-song
 
-- name: Adam Back
-  work: CEO at Blockstream
-  file_name: adam-back
+# - name: Adam Back
+#   work: CEO at Blockstream
+#   file_name: adam-back
 
 - name: Giacomo Zucco
   work: Bitcoin Consultant and Educator
@@ -18,9 +18,9 @@
   work: Co-founder and head of gaming R&D at ZEBEDEE
   file_name: christian-moss
 
-- name: David Coen
-  work: IT consultant & EdgeWallet Software QA Tester & Support
-  file_name: david-coen
+# - name: David Coen
+#   work: IT consultant & EdgeWallet Software QA Tester & Support
+#   file_name: david-coen
 
 - name: Federico Tenga
   work: Co-founder at Chainside
