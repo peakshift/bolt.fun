@@ -1,17 +1,31 @@
-- name: Christian Moss
+- name: Jimmy Song
+  work: Bitcoin expert and author
+  file_name: jimmy-song
+
+- name: Adam Back
+  work: CEO at Blockstream
+  file_name: adam-back
+
+- name: Giacomo Zucco
+  work: Bitcoin Consultant and Educator
+  file_name: giacomo-zucco
+
+- name: Riccardo Masutti
+  work: Cybersecurity & Privacy at Bitfinex 
+  file_name: riccardo-masutti
+
+- name: Christian Moss 
+  work: Co-founder and head of gaming R&D at ZEBEDEE
   file_name: christian-moss
 
 - name: David Coen
+  work: IT consultant & EdgeWallet Software QA Tester & Support
   file_name: david-coen
 
 - name: Federico Tenga
+  work: Co-founder at Chainside
   file_name: federico-tenga
 
-- name: Giacomo Zucco
-  file_name: giacomo-zucco
-
-- name: Jimmy Song
-  file_name: jimmy-song
-
-- name: Riccardo Masutti
-  file_name: riccardo-masutti
+- name: Rikki 
+  work: Bitcoin Italia Podcast
+  file_name: rikki
