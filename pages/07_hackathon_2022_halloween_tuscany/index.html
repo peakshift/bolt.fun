@@ -1,0 +1,348 @@
+---
+permalink: /hackathons/lightning-halloween/
+nav_order: 4
+main_nav: true
+title: Lightning Halloween
+secondary_nav: true
+primary_color: FF9900
+nav_image: /assets/logos/logo-hackathons.png
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightning Halloween | Hackathon</title>
+    <meta
+      name="description"
+      content="Improve your Bitcoin and Lighting Network knowledge by attending high-level lectures from world-class experts after the Plan B Forum in Lugano, Switzerland."
+    />
+    <meta property="og:title" content="Lightning Halloween | Hackathon" />
+    <meta
+      property="og:description"
+      content="Improve your Bitcoin and Lighting Network knowledge by attending high-level lectures from world-class experts after the Plan B Forum in Lugano, Switzerland."
+    />
+    <meta property="og:image" content="/assets/images/lightning-halloween/header.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="{{ "/assets/css/lightning-halloween.css" | relative_url }}"
+    rel="stylesheet" />
+    <style></style>
+  </head>
+  <body class="overflow-x-hidden">
+    {%- include svgs.html -%} {%- include header.html -%}
+    <!-- Header -->
+    <section id="header">
+      {% include picture.html image = "/assets/images/lightning-halloween/header.png"
+      retina = "/assets/images/lightning-halloween/header@2x.png" mobile =
+      "/assets/images/lightning-halloween/header-mobile.png" mobileRetina =
+      "/assets/images/lightning-halloween/header-mobile@2x.png" width = 1600 height =
+      800 %}
+    </section>
+
+    <div class="page-container">
+      <!-- About -->
+      <section id="about" class="mt-100">
+        <div class="text">
+
+<p class="text-body2 text-gray-600">Join us at the first edition of "Lightning Halloween", a seasonal event aimed at promoting development on the Lightning Network and driving Bitcoin adoption!</p>
+<p class="text-body2 text-gray-600">The event is the "developer track" of the <a href="https://planb.lugano.ch/planb-forum/" target="_blank">Lugano Plan B Forum</a> and will take place immediately after the Forum, with free transfer from Lugano for attendees of the 1st event.</p>
+<p class="text-body2 text-gray-600">Held in Viareggio, just a short train ride away from most major attractions in Tuscany, Lightning Halloween will feature world-class experts, who will deliver speeches on some of the most relevant and current topics within the Lightning Network ecosystem.</p>
+<p class="text-body2 text-gray-600">After the talks, participants will be able to work together on their preferred projects and participate in practical workshops led by industry experts and fellow Bitcoiners.</p>
+<p class="text-body2 text-gray-600">As if that weren’t exciting enough, participants will have a chance to meet Bitcoin and Lightning Network developers and designers and team up in sight of the <a href="https://makers.bolt.fun/tournaments/1" target="_blank">#LegendsOfLightning</a> global hackathon. In order to provide participants with the best possible experience, only a limited number of places will be available, to ensure that everybody will have enough time to ask all their questions to speakers and mentors.</p>
+
+        </div>
+
+        <div id="register-counter">
+          <p class="text-black text-body2">Event starts in</p>
+          <div class="counters-list">
+            <div class="bg-white rounded-10 text-body1 p-10">--d</div>
+            <div class="bg-white rounded-10 text-body1 p-10">--h</div>
+            <div class="bg-white rounded-10 text-body1 p-10">--m</div>
+          </div>
+          <div class="flex flex-col gap-8">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeYQ6vDKrfu2GI6Ur_vYap-JA7dK6YZcHd7uLHwuc97Kabecg/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="py-20 px-42 bg-blue-900 text-white w-full rounded-10 font-bold"
+              >
+                Register Now
+              </button>
+            </a>
+            <a
+              href="https://discord.gg/mMvXC5xdCs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="discord-btn py-20 px-42 text-white w-full rounded-10 font-bold"
+              >
+                <img
+                  src="/assets/icons/discord.svg"
+                  alt="clock"
+                  class="icon mr-4"
+                />
+                Join us in Discord
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule  -->
+      <section id="calender" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Schedule</h2>
+        <!-- <div class="bg-gray-200 py-72 rounded-12 text-center mt-48 border">
+          <p class="text-body3 text-gray-500 mx-auto" style="max-width: 250px">
+            Coming soon, stay informed by following
+            <a
+              class="underline"
+              href="https://twitter.com/BUILDwithBOLTS"
+              >Bolt.fun</a
+            >
+            on Twitter
+          </p>
+        </div> -->
+        <div class="border borders-between rounded-12 mt-64">
+          {% for day in site.data.lightning_halloween.schedule %}
+          <div
+            class="day collapse-container {% if forloop.index == 0 %}collapse-open{% endif %}"
+          >
+            <div class="p-20 flex items-center day-header">
+              <div class="flex flex-wrap flex-grow items-center">
+                <div class="title flex">
+                  <h3 class="font-bold">
+                    {{day.day}} <span class="ext">{{day.date-ext}}</span>
+                  </h3>
+                  <h3 class="font-bold text-gray-400 day-number">
+                    <span> - </span> Day {{ forloop.index }}
+                  </h3>
+                </div>
+                {% if day.events %}
+                <p class="text-body2 text-gray-600 ml-auto flex-shrink-0">
+                  {{day.events | size}} events
+                </p>
+                {% endif %}
+              </div>
+
+              <button class="open-collapse-btn bg-gray-200 rounded-8 ml-20">
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div class="events collapse-content border-t borders-between">
+                {% if day.events %} {% for event in day.events %}
+                <div class="p-20 flex flex-wrap items-start">
+                  <img src="/assets/icons/clock.svg" alt="clock" class="icon" />
+
+                  <div class="ml-32 content">
+                    <h4 class="title text-body2 font-bold-600">
+                      {{event.title}}
+                    </h4>
+                    <p class="date text-body4 font-bold-400 text-gray-600">
+                      {{event.time}} {% if event.presenter %} -
+                      {{event.presenter}} {% endif %}
+                    </p>
+                  </div>
+
+                  {% if event.youtube-link %}
+                  <div
+                    class="youtube-link watch-link flex flex-shrink-0 link text-blue-500 self-center ml-auto"
+                  >
+                    <a
+                      href="{{event.youtube-link}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="mr-10 flex-shrink-0 text-body3"
+                      >Watch</a
+                    >
+                    <img
+                      src="/assets/icons/youtube.svg"
+                      alt="youtube"
+                      class="icon"
+                    />
+                  </div>
+                  {% endif %} {% if event.discord-link %}
+                  <div
+                    class="discord-link watch-link flex flex-shrink-0 link text-blue-500 self-center ml-auto"
+                  >
+                    <a
+                      href="{{event.discord-link}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="mr-10 flex-shrink-0 text-body3"
+                      >Join</a
+                    >
+                    <svg
+                      class="icon"
+                      width="24"
+                      height="20"
+                      viewBox="0 0 24 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.3303 2.22781C18.7767 1.50093 17.1156 0.972672 15.3789 0.671875C15.1656 1.05749 14.9164 1.57614 14.7446 1.98873C12.8985 1.71109 11.0693 1.71109 9.25716 1.98873C9.08539 1.57614 8.83055 1.05749 8.61536 0.671875C6.87681 0.972672 5.21376 1.50287 3.66019 2.23166C0.526643 6.96686 -0.322811 11.5845 0.101917 16.1365C2.18025 17.6885 4.19441 18.6313 6.17457 19.2483C6.66349 18.5754 7.09953 17.8601 7.47518 17.1063C6.75975 16.8344 6.07453 16.499 5.42707 16.1095C5.59884 15.9822 5.76686 15.8492 5.92918 15.7123C9.87819 17.5594 14.1689 17.5594 18.0707 15.7123C18.235 15.8492 18.403 15.9822 18.5728 16.1095C17.9235 16.5009 17.2364 16.8363 16.521 17.1082C16.8966 17.8601 17.3308 18.5774 17.8216 19.2502C19.8036 18.6333 21.8197 17.6905 23.898 16.1365C24.3964 10.8595 23.0467 6.28434 20.3303 2.22781ZM8.01318 13.337C6.82772 13.337 5.85555 12.2303 5.85555 10.8826C5.85555 9.53497 6.80696 8.42636 8.01318 8.42636C9.21942 8.42636 10.1916 9.53303 10.1708 10.8826C10.1727 12.2303 9.21942 13.337 8.01318 13.337ZM15.9867 13.337C14.8013 13.337 13.8291 12.2303 13.8291 10.8826C13.8291 9.53497 14.7805 8.42636 15.9867 8.42636C17.193 8.42636 18.1651 9.53303 18.1444 10.8826C18.1444 12.2303 17.193 13.337 15.9867 13.337Z"
+                        fill="#3f51b5"
+                      />
+                    </svg>
+                  </div>
+                  {% endif %}
+                  {% if event.twitter-link %}
+                  <div
+                    class="twitter-link watch-link flex flex-shrink-0 link text-blue-500 self-center ml-auto"
+                  >
+                    <a
+                      href="{{event.twitter-link}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="mr-10 flex-shrink-0 text-body3"
+                      >Join</a
+                    >
+                     <img
+                      src="/assets/icons/twitter.svg"
+                      alt="twitter"
+                      class="icon"
+                    />
+                    </svg>
+                  </div>
+                  {% endif %}
+                </div>
+                {% endfor %} {% else %}
+                <div class="bg-gray-200 p-40 text-center">
+                  <p class="text-body3 text-gray-800 mx-auto">
+                    Our first day of Shock the Web 2 ⚡️ will include workshops,
+                    talks, and panel discussions. Stay tuned as we release our
+                    full schedule soon.
+                  </p>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Speakers -->
+      <section id="speakers" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Speakers</h2>
+        <div class="flex judges-list mt-48">
+          {% for speaker in site.data.lightning_halloween.speakers %}
+          <div class="judge-card border rounded-10 flex flex-col items-center">
+            <img
+              src="/assets/images/lightning-halloween/speakers/{{speaker.file_name}}.webp"
+              alt="{{speaker.name}} avatar"
+            />
+            <p class="mt-30 text-body2 font-bold-600">{{speaker.name}}</p>
+            <p class="text-body2 font-bold-400 text-gray-500">
+              {{speaker.work}}
+            </p>
+            {% comment %}
+            <a
+              href="https://twitter.com/{{speaker.handler}}"
+              class="text-body2 text-blue font-bold-400"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@{{speaker.handler}}</a
+            >
+            {% endcomment %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section id="faqs" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">FAQs</h2>
+
+        <div class="borders-between rounded-12 mt-52">
+          {% for qaa in site.data.lightning_halloween.faq %}
+          <div class="question collapse-container px-20">
+            <div class="py-20 flex items-center">
+              <h3 class="text-h5 text-black font-bold">{{qaa.question}}</h3>
+              <button
+                class="open-collapse-btn rounded-10 flex-shrink-0 ml-auto"
+              >
+                <img src="/assets/icons/arrow-down.svg" />
+              </button>
+            </div>
+            <div class="collapse-content-wrapper">
+              <div
+                class="collapse-content pb-20 text-body2 text-gray-600 font-bold-400"
+              >
+                {{qaa.answer | markdownify}}
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Past Events -->
+      <section id="past-events" class="mt-130">
+        <h2 class="text-h2 font-bold text-black">Past Events</h2>
+
+        <div class="past-events-list mt-48">
+          <a
+            href="/hackathons/shock-the-web/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="past-event-card rounded-16 border">
+              <img
+                src="/assets/images/hackathons/header.jpg"
+                alt="Shock the web 1"
+              />
+              <div class="p-16 flex flex-col gap-8">
+                <p class="text-h5 text-gray-900 font-bold mt-20 mb-10">
+                  Shock the Web ⚡️
+                </p>
+                <p class="text-body3 text-gray-700 font-bold-400 mb-10">
+                  March 22-28, 2022<span class="badge text-body4"
+                    >Complete</span
+                  >
+                </p>
+                <p class="text-body4 text-gray-700 font-bold-400 mb-10">
+                  <img
+                    src="/assets/icons/users.svg"
+                    alt="users icon"
+                    class="icon mr-4"
+                  />
+                  156 participants
+                </p>
+                <p class="text-body4 text-gray-700 font-bold-400 mb-10">
+                  <img
+                    src="/assets/images/lightning-halloween/atlanta-bits-dev.png"
+                    alt="atlanta-bits-dev logo"
+                    class="mr-4"
+                    style="width: 32px"
+                  />
+                  Congrats AtlantaBitDevs
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="mt-100"></div>
+
+      {%- include footer.html -%}
+    </div>
+
+    <!-- JS Scripts -->
+    <script defer src="/js/lightning-halloween.js"></script>
+  </body>
+</html>

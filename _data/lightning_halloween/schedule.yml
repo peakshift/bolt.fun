@@ -1,0 +1,80 @@
+- day: October, Sunday 30
+  date-ext: th
+  events:
+    - title: Transfer from Lugano to Viareggio
+      time: 12:30 - 17:30
+
+    - title: Opening remarks
+      time: 18:30 - 19:00
+
+    - title: Networking apericena
+      time: 19:00 - 20:00
+
+    - title: Free evening
+      time: 20:00 onwards
+
+- day: October, Monday 31
+  date-ext: st
+  events:
+    - title: Talks
+      time: 09:00 - 12:30
+
+    - title: Lunch
+      time: 12:30 - 13:30
+
+    - title: Workshop/Talk to the audience
+      time: 13:30 - 15:00
+
+    - title: Group hack time
+      time: 15:00 - 18:00
+
+    - title: Networking dinner
+      time: 19:30 onwards
+
+- day: November, Tuesday 1
+  date-ext: st
+  events:
+    - title: Talks
+      time: 09:00 - 12:30
+
+    - title: Lunch
+      time: 12:30 - 13:30
+
+    - title: Workshop/Talk to the audience
+      time: 13:30 - 15:00
+
+    - title: Group hack time
+      time: 15:00 - 18:00
+
+    - title: Group pizza/free evening (facultative)
+      time: 19:30 onwards
+
+- day: November, Wednesday 2
+  date-ext: nd
+  events:
+    - title: Talks
+      time: 09:00 - 12:30
+
+    - title: Lunch
+      time: 12:30 - 13:30
+
+    - title: Workshop/Talk to the audience
+      time: 13:30 - 15:00
+
+    - title: Group hack time
+      time: 15:00 - 18:00
+
+    - title: Networking dinner/final party
+      time: 19:30 onwards
+
+- day: November, Thursday 3
+  date-ext: rd
+  events:
+    - title: Closing remarks
+      time: 09:00 - 09:15
+
+    - title: Optional cultural activity + lunch
+      time: 09:15 - 15:00
+
+    - title: Return transfer
+      time: 15:30 onwards
