@@ -1,41 +1,41 @@
 - day: Thursday 16
   date-ext: th
   events:
-    - title: Opening ceremony
+    - title: Welcome makers 👾
       time: 12:00 - 12:30 PM, UTC
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: Opportunities awaiting Bitcoin developers
       time: 12:30 - 12:55 PM, UTC - Oluwasegun Kosemani
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: "Panel Discussion: Web3 on Lightning ⚡"
-      time: 13:00 - 14:00 PM, UTC - Roy Sheinfeld, John Carvalho + others
-      twitter-link: https://mobile.twitter.com/boltfun_btc
+      time: 13:00 - 14:00 PM, UTC - Roy Sheinfeld, John Carvalho, & Christoph Ono
+      twitter-link: https://twitter.com/i/spaces/1mrGmaQZnPDGy
 
     - title: Reimagining lightning UX on web
       time: 14:10 - 14:40 PM, UTC - Anthony Potdevin
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: Introduction to WebLN Guide
       time: 14:45 - 15:00 PM, UTC - Moritz Kaminski
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: WebLN Guide + LN app template demo
       time: 15:00 - 16:00 PM, UTC - Rene Aaron
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: Escrowed lightning payments
       time: 16:20 - 16:45 PM, UTC - Super Testnet
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
-    - title: Getting started w. LL’s ⚡️ LNC web package
-      time: 17:00 - 18:00 PM, UTC
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+    - title: Introducing LNC-web by Lightning Labs
+      time: 17:00 - 18:00 PM, UTC - Evan Kaloudis
+      youtube-link: https://www.youtube.com/c/boltfun
 
-    - title: Getting started w. LL’s ⚡️ LSATs/Aperature
-      time: 18:00 - 18:45 PM, UTC
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+    - title: Getting started w. LSATs/Aperature
+      time: 18:00 - 18:45 PM, UTC - Hannah Rosenberg
+      youtube-link: https://www.youtube.com/c/boltfun
 
 - day: Friday 17
   date-ext: th
@@ -49,6 +49,7 @@
 
     - title: Makers hangout 🍕
       time: 20:00 - 21:00 PM, UTC
+      discord-link: https://discord.gg/HFqtxavb7x
 
 - day: Saturday 18
   date-ext: th
@@ -62,12 +63,13 @@
 
     - title: Makers hangout 🍕
       time: 20:00 - 21:00 PM, UTC
+      discord-link: https://discord.gg/HFqtxavb7x
 
 - day: Sunday 19
   date-ext: th
   events:
     - title: Hacking continues 💻
-      time: 12:00 - 20:00 PM, UTC
+      time: 12:00 - 16:00 PM, UTC
 
     - title: Q+A with mentors ❓
       time: 12:00 - 13:00 PM, UTC
@@ -78,11 +80,12 @@
 
     - title: Final presentations 🍿
       time: 17:00 - 19:00 PM, UTC
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: Results + closing ceremony 🏆
       time: 20:00 - 20:30 PM, UTC
-      youtube-link: https://www.youtube.com/channel/UC8h2sMR6SgLA0t_9xd6mqMg
+      youtube-link: https://www.youtube.com/c/boltfun
 
     - title: Post hackathon hangout 🎉
       time: 20:30 - break of dawn, UTC
+      discord-link: https://discord.gg/HFqtxavb7x
