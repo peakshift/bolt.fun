@@ -79,7 +79,7 @@ This is may not be suitable if you want to make a small payment to a vendor at y
 
 To meet the demands of our modern economy — movement of money needs to be borderless, secure, fast, and cheap.
 
-The Lightning Network is part of the Bitcoin ecosystem that will power this economy. It allows for near-instant payments at much lower fees. This is possible because extends Bitcoin in a way that does not record each payment on-chain.
+The Lightning Network is part of the Bitcoin ecosystem that will power this economy. It allows for near-instant payments at much lower fees. This is possible because it extends Bitcoin in a way that does not record each payment on-chain.
 
 #### A Network of Payment Channels and Settlement
 
