@@ -42,11 +42,62 @@ permalink: /
     {%- include svgs.html -%} {%- include header.html -%}
     <!-- Header -->
     <section id="header">
-      {% include picture.html image = "/assets/images/landing-page/size=web.jpg"
+      <a
+        href="https://makers.bolt.fun/tournaments/1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="w-full"
+      >
+        <!-- {% include picture.html image = "/assets/images/landing-page/size=web.jpg"
       retina = "/assets/images/landing-page/size=web@2x.jpg" mobile =
       "/assets/images/landing-page/size=mobile.jpg" mobileRetina =
       "/assets/images/landing-page/size=mobile@2x.jpg" width = 1600 height = 800
-      %}
+      %} -->
+        {% include picture.html image = "https://i.ibb.co/3S35g6T/wide.jpg"
+        retina = "https://i.ibb.co/3S35g6T/wide.jpg" mobile =
+        "https://i.ibb.co/LrDcb75/normal.jpg" mobileRetina =
+        "https://i.ibb.co/LrDcb75/normal.jpg" %}
+
+        <div class="overlay"></div>
+        <div class="info">
+          <p class="text-body1 font-bold text-white">
+            Legends of Lightning ⚡️ Tournament
+          </p>
+          <p class="text-body3 font-bold-500 text-white mt-8">
+            12th Oct - 7th Dec, 2022
+          </p>
+          <p class="text-body4 text-white mt-8">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              class="mr-8"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+                d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"
+              ></path>
+              <circle
+                cx="256"
+                cy="192"
+                r="48"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              ></circle>
+            </svg>
+            Online
+          </p>
+        </div>
+      </a>
     </section>
 
     <div class="page-container">
