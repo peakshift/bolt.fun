@@ -46,21 +46,21 @@ _For a full overview of what this site will eventually become, feel free to also
 
 ---
 
-There are limitations in the current financial system that make payment services inaccessible to people in many places of the world — not everyone has access to bank accounts, identification, proof of address or are in countries which support the use of modern financial services.
+There are limitations in the current financial system that make payment services inaccessible to people in many places of the world — not everyone has access to bank accounts, identification, proof of address or live in countries which support the use of modern financial services.
 
-We have established that [Bitcoin is money](https://bitcoin.design/guide/getting-started/why-bitcoin-is-unique/#its-money-but-digital) and [Bitcoin is global](https://bitcoin.design/guide/getting-started/why-bitcoin-is-unique/#global-by-default) now we dive into how it can be used to facilitate payments.
+We have established that [Bitcoin is money](https://bitcoin.design/guide/getting-started/why-bitcoin-is-unique/#its-money-but-digital) and [Bitcoin is global](https://bitcoin.design/guide/getting-started/why-bitcoin-is-unique/#global-by-default) now we dive into how it can facilitate payments.
 
 ## Bitcoin is extensible, it's not just a payment network
 
-It should be noted, that Bitcoin is not just a mechanism to make simple payments but it is a complete global financial infrastructure for moving value without intermediaries. Each transaction is like a bit of code, which means it can be programmed — for example you can set various spending conditions like requiring multiple parties to agree prior funds being able to move. Its even possible to restrict funds from being moved until a certain time.
+It should be noted that Bitcoin is not just a mechanism to make simple payments, but it is a complete global financial infrastructure for moving value without intermediaries. Each transaction is like a bit of code, which means it can be programmed — for example, you can set various spending conditions like requiring multiple parties to agree prior to moving the funds. It’s even possible to restrict funds from being moved until a certain time.
 
 ## Bitcoin is secure and accessible to all
 
-Some people may have the perception that Bitcoin is anonymous. This isn't quite accurate because all transactions are public so anyone can see the entire history of transfers that ever happened going back to the very first one on [2009-01-03](https://blockstream.info/tx/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b).
+Some people think Bitcoin is anonymous. This isn’t quite accurate because all transactions are public, therefore anyone can see the entire history of transfers going back to the very first one on [2009-01-03](https://blockstream.info/tx/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b).
 
 #### Why are transactions public?
 
-They are public so that anyone can have the ability to verify the entire history of transactions themselves. We call this a permissionless system. No one needs to ask for permission to send a transaction or to build experiences on top of Bitcoin.
+They are public so that anyone can verify the entire history of transactions for themselves. We call this a permissionless system. No one needs to ask for permission to send a transaction or to build experiences on top of Bitcoin.
 
 #### What about privacy?
 
