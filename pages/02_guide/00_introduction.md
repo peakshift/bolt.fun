@@ -73,7 +73,7 @@ We should inform our users of these risks but also provide mechanisms that help 
 
 Transactions made on-chain can take minutes or days to confirm — depending on the fee you pay. This is because they get secured by the entire network of nodes and miners which exchange transactions they receive from wallets and other services with each other. Every 10 minutes miners validate the payments within the transactions and publish a block. For this service, they typically take the transactions with the highest fees.
 
-This is may not be suitable if you want to make a small payment to a vendor at your local market — but if you're making or receiving a payment from someone accross the world the benefits are made very clear as the current banking and financial system can be quite restrictive, and expensive for some.
+This may not be suitable if you want to make a small payment to a vendor at your local market — but if you're making or receiving a payment from someone accross the world the benefits are made very clear as the current banking and financial system can be quite restrictive, and expensive for some.
 
 ### Lightning Payments — A micro-payment network for every day payments
 
