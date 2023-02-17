@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: Modules
-# parent: Guide
+parent: Virtual Hackathons
 description: Components of a hackathons
 nav_order: 400
 has_children: true
