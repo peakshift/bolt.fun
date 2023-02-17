@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: Virtual Hackathons
-parent: Playbook
+# parent: Playbook
 description: An Introduction to Virtual Hackathons
 nav_order: 10
 has_children: true
