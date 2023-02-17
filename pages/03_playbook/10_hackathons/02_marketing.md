@@ -37,3 +37,10 @@ Don’t wait around for people to discover your event themselves. And certainly 
 
 ### **Keep posting about your event**
 In short, be consistent. Make sure you continue posting and marketing your event online and within the relevant social channels. It’s common for people to scroll past your promoted ads or tweets about the event, but the more you put material out there, the more likely it is to be discovered. When posting online, create and consistently use #hashtags to talk about your event. These are also useful for giving the impression that others are talking about your event, which is fun and exciting for participants. Finally, be consistent in the language and information you use. Don’t repeat the same information in 5 different ways, as it can become confusing. Make sure you stick to the plan and create clear, concise instructions on how to take part.
+
+---
+
+##### ***Need help running your own hackathon?** 
+Our platform can help teams create tailored events that market key event details, allow participants to register, form teams, and submit projects whilst tracking their progress. Interested in learning more?* 
+
+[Schedule a call](https://calendly.com/johnsBeharry)

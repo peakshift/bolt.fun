@@ -121,6 +121,7 @@ These events are much more time consuming for organisers, and require greater at
 
 ---
 
-***Interested in running your own hackathon?** Our platform can help teams create tailored events that market key event details, allow participants to register, form teams, and submit projects whilst tracking their progress. Interested in learning more?* Contact us
+##### ***Need help running your own hackathon?** 
+Our platform can help teams create tailored events that market key event details, allow participants to register, form teams, and submit projects whilst tracking their progress. Interested in learning more?* 
 
-**Up Next:** [Building your Hackathon with Modules](https://hackmd.io/mhbqSKNmT9GtMRA-s8pPsQ)
+[Schedule a call](https://calendly.com/johnsBeharry)

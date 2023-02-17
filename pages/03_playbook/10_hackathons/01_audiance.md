@@ -56,10 +56,9 @@ Hackathons are a great way for participants to meet new people, teammates, co-fo
 
 *You can, of course, target multiple types of personas. Varying demographics and skill sets often lead to a more diverse range of projects being built because of the different mindsets, work processes, and experiences.*
 
-
 ---
 
-##### ***Interested in running your own hackathon?** 
-Our platform can help teams create tailored events that market key event details, allow participants to register, form teams, and submit projects whilst tracking their progress. Interested in learning more?* Contact us
+##### ***Need help running your own hackathon?** 
+Our platform can help teams create tailored events that market key event details, allow participants to register, form teams, and submit projects whilst tracking their progress. Interested in learning more?* 
 
-**Up Next:** [Choosing your Hackathon's Length](https://hackmd.io/WFbZv43bQnaAJ27l2RDqrQ)
+[Schedule a call](https://calendly.com/johnsBeharry)
