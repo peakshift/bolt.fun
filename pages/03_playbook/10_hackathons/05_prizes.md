@@ -3,7 +3,7 @@ layout: guide
 title: Prizes
 parent: Virtual Hackathons
 description: Incentivizing innovation and supporting makers 
-nav_order: 600
+nav_order: 500
 has_children: false
 permalink: /playbook/hackathons/prizes
 main_classes: -no-top-padding
