@@ -28,7 +28,11 @@
         {%- if page.path contains 'guide' or 'playbook' -%}
         <div class="side-bar">
           <nav role="navigation" aria-label="Main" id="secondary-nav" class="secondary-nav">
-              {% include secondary-nav.html id="side" %}
+              {%- if page.path contains 'guide' -%}
+                {% include secondary-nav.html id="side" section="guide" %}
+              {% else %}
+                {% include secondary-nav.html id="side" section="playbook" %}
+              {% endif %}
           </nav>
         </div>
         {%- endif -%}
