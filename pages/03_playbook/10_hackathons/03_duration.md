@@ -21,16 +21,16 @@ Before we dive into it, *here are a few factors to consider when choosing the ti
 
 ![](https://i.imgur.com/NKI0W06.png)
 
-**Budget**
+###### **Budget**
 Generally speaking, the longer your hackathon runs, the more costs you will incur. These can be labour costs for those running the event, increased speaker and mentor fees, prize amounts, scaling software used, and more.
 
-**Availability**
+###### **Availability**
 Depending on what type of outcome you’re hoping for, you may have a limited timeframe to work with. For faster results, you might try to squeeze an event into a single day or weekend.
 
-**Interest**
+###### **Interest**
 The longer your event, the more time and effort you will have to put into engaging participants and keeping them interested in discussions, workshops, and mentorship.
 
-**Goals & Outcomes**
+###### **Goals & Outcomes**
 What are your events goals and desired outcomes? The more time your participants have, the more likely they are to build higher-quality products and proof of concepts. Shorter events are likely to generate ideas and proof of concepts/features at best.
 
 
