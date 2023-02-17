@@ -23,12 +23,12 @@ navs:
     url: /guide/
   - title: Makers Directory
     url: https://makers.bolt.fun/
-  - title: Tournament
-    url: https://makers.bolt.fun/tournaments/1
+  - title: Playbook
+    url: /playbook/
 
 title: BOLT.FUN
 email: lightning@peakshift.com
-description: "BOLT.FUN aims to be a fun place for builders to learn about and experiment with Lightning Network technology"
+description: "A community to share knowledge and learn to #BuildOnBitcoin then eventually incubate your projects for FUN and profit!"
 # baseurl: "Guide" # Only for gh-pages. Comment this line to run the website on localhost:4000
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peakshift

@@ -1,6 +1,6 @@
 ---
 layout: guide
-nav_order: 2
+nav_order: 1
 title: Playbook
 secondary_nav_title: Playbook
 description: 
