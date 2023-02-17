@@ -1,7 +1,7 @@
-<ul class="nav-list">
+<ul class="nav-list" data-section="{{ include.section }}">
 
   {%- assign section = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
-  {%- assign section = 'guide' -%}
+  {%- assign section = include.section -%}
 
   {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" | where_exp:"item", "item.path contains section" -%}
   {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" | where_exp:"item", "item.path contains section" -%}
