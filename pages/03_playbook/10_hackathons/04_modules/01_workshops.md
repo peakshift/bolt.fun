@@ -2,6 +2,7 @@
 layout: guide
 title: Workshops
 parent: Modules
+grand_parent: Virtual Hackathons
 description: Workshops led by subject matter experts
 nav_order: 401
 has_children: false

@@ -2,6 +2,7 @@
 layout: guide
 title: Conclusion
 parent: Modules
+grand_parent: Virtual Hackathons
 description: How everything fits
 nav_order: 405
 has_children: false

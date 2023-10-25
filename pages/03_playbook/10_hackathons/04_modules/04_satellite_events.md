@@ -2,6 +2,7 @@
 layout: guide
 title: Satellite Events
 parent: Modules
+grand_parent: Virtual Hackathons
 description: Events held concurrently with the hackathon
 nav_order: 404
 has_children: false
