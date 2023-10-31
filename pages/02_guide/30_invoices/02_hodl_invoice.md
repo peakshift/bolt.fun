@@ -22,7 +22,7 @@ main_classes: -no-top-padding
 
 # The HODL Invoice
 
-At a high level, a `hodl invlightning_offeroice` is an invoice that is held by the recipient but not settled right away. A `hodl invoice` can be resolved in two ways:
+At a high level, a `hodl invoice` is an invoice that is held by the recipient but not settled right away. A `hodl invoice` can be resolved in two ways:
 1. The payment is **_settled_** when the recipient releases the preimage (to the payment route)
 1. The payment is **_canceled_** if the recipient does not release the preimage and the invoice expires
 
