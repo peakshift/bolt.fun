@@ -22,13 +22,13 @@ main_classes: -no-top-padding
 
 # The HODL Invoice
 
-At a high level, a `hodl invlightning_offeroice` is an invoice that is held by the recipient but not settled right away. A `hodl invoice` can be resolved in two ways:
+At a high level, a `hodl invoice` is an invoice that is held by the recipient but not settled right away. A `hodl invoice` can be resolved in two ways:
 1. The payment is **_settled_** when the recipient releases the preimage (to the payment route)
 1. The payment is **_canceled_** if the recipient does not release the preimage and the invoice expires
 
 A `hodl invoice` works in the exact way that a standard invoice does except that, when the recipient receives the payment on a given route they do not immediately/automatically return the `preimage` back. _As a reminder, a successful payment is a 2-part process consisting of sending a payment for a given invoice along a Lightning Network route from sender to recipient and receiving the secret (preimage) for the payment back up to the route._
 
-With a `hodl invoice` there is also an addiitonal option where the recipient **_does not_** have to be the same person _creating the payment hash for a given invoice_ they will generate (as is usually the case). They can also receive a payment hash from another party to create an invoice again where that other party would be the one that will hold the secret (preimage) for the hash until some condition is met and the secret is revealed which allows the invoice to be successfully settled.
+With a `hodl invoice` there is also an additional option where the recipient **_does not_** have to be the same person _creating the payment hash for a given invoice_ they will generate (as is usually the case). They can also receive a payment hash from another party to create an invoice again where that other party would be the one that will hold the secret (preimage) for the hash until some condition is met and the secret is revealed which allows the invoice to be successfully settled.
 
 ## Scenarios ([source](https://wiki.ion.radar.tech/tech/research/hodl-invoice) & [more examples](https://github.com/lightningnetwork/lnd/pull/2022))
 
