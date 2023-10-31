@@ -36,7 +36,7 @@ For larger tournaments such as #LegendsOfLightning, we had a semi-finals and fin
 
 ### Judging Criteria
 
-![](https://i.imgur.com/alaWfiD.jpg)
+![](https://hackmd.io/_uploads/HkivziAfp.png)
 
 ###### 1. Value Proposition 🎯
 Does the project have a product market fit? Does it provide value to the bitcoin ecosystem and beyond?
