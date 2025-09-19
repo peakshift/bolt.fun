@@ -2,7 +2,7 @@
 
 Template by the [Bitcoin Design Community](https://github.com/BitcoinDesign)
 
-Website: https://bolt.fun/guide/
+Website: https://guide.bolt.fun/
 
 ## How to build and run the site locally
 

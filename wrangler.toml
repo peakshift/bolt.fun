@@ -1,0 +1,6 @@
+[build]
+command = "bundle exec jekyll build"
+publish = "_site"
+
+[build.environment]
+BUNDLE_WITHOUT = "development:test"
