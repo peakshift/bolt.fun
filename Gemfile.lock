@@ -13,6 +13,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -118,6 +119,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  csv
   html-proofer
   jekyll (~> 4.1.1)
   jekyll-compress-images!
