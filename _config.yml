@@ -46,6 +46,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-compress-images
 
+# Fix encoding issues in Cloudflare deployment
+encoding: utf-8
+
 imageoptim:
   allow_lossy: true
   skip_missing_workers: true
